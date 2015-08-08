@@ -1,0 +1,2669 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Twish\n"
+"POT-Creation-Date: 2013-10-29 10:56-0500\n"
+"PO-Revision-Date: 2013-10-29 10:57-0500\n"
+"Last-Translator: \n"
+"Language-Team: Adaptive Themes\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;_e;__\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: 404.php:9 404.php:19
+msgid "404"
+msgstr ""
+
+#: 404.php:20
+msgid "error"
+msgstr ""
+
+#: 404.php:22
+msgid "Sorry, this page does not exist anymore."
+msgstr ""
+
+#: 404.php:26
+msgid "go back to our homepage"
+msgstr ""
+
+#: archive-custom_type.php:21
+#, php-format
+msgid ""
+"Posted <time class=\"updated\" datetime=\"%1$s\">%2$s</time> by <span class="
+"\"author\">%3$s</span>."
+msgstr ""
+
+#: archive-custom_type.php:21 functions.php:294 single-custom_type.php:33
+#: taxonomy-custom_cat.php:37
+msgid "F jS, Y"
+msgstr ""
+
+#: archive-custom_type.php:48 archive.php:65 index.php:40 search.php:30
+#: taxonomy-custom_cat.php:63
+msgid "&laquo; Older Entries"
+msgstr ""
+
+#: archive-custom_type.php:49 archive.php:66 index.php:41 search.php:31
+#: taxonomy-custom_cat.php:64
+msgid "Newer Entries &raquo;"
+msgstr ""
+
+#: archive-custom_type.php:58 archive.php:76 index.php:51
+#: page-no-sidebar.php:35 page-sidebar-left-submenu.php:39
+#: page-sidebar-left.php:36 page-sidebar-right-submenu.php:39
+#: page-sidebar-right.php:36 page.php:30 single-custom_type.php:62
+#: single-portfolio.php:37 single.php:35 taxonomy-custom_cat.php:73
+msgid "Oops, Post Not Found!"
+msgstr ""
+
+#: archive-custom_type.php:61 archive.php:79 index.php:54
+#: page-no-sidebar.php:38 page-sidebar-left-submenu.php:42
+#: page-sidebar-left.php:39 page-sidebar-right-submenu.php:42
+#: page-sidebar-right.php:39 page.php:33 single-custom_type.php:65
+#: single-portfolio.php:40 single.php:38 taxonomy-custom_cat.php:76
+msgid "Uh Oh. Something is missing. Try double checking things."
+msgstr ""
+
+#: archive-custom_type.php:64
+msgid "This is the error message in the custom posty type archive template."
+msgstr ""
+
+#: archive.php:10 taxonomy-custom_cat.php:25
+msgid "Posts Categorized:"
+msgstr ""
+
+#: archive.php:15
+msgid "Posts Tagged:"
+msgstr ""
+
+#: archive.php:24
+msgid "Posts By:"
+msgstr ""
+
+#: archive.php:29
+msgid "Daily Archives:"
+msgstr ""
+
+#: archive.php:35
+msgid "Monthly Archives:"
+msgstr ""
+
+#: archive.php:41
+msgid "Yearly Archives:"
+msgstr ""
+
+#: archive.php:82 index.php:57
+msgid "This is the error message from the Adaptive Shortcodes' Blog Shortcode "
+msgstr ""
+
+#: comments.php:13
+msgid "This post is password protected. Enter the password to view comments."
+msgstr ""
+
+#: comments.php:24
+msgid "Comments"
+msgstr ""
+
+#: comments.php:44
+msgid "Comments are closed."
+msgstr ""
+
+#: comments.php:58
+msgid "Post your comment"
+msgstr ""
+
+#: comments.php:58
+#, php-format
+msgid "Leave a Reply to %s"
+msgstr ""
+
+#: comments.php:66
+#, php-format
+msgid "You must be %1$slogged in%2$s to post a comment."
+msgstr ""
+
+#: comments.php:83
+msgid "Comment"
+msgstr ""
+
+#: comments.php:83 comments.php:109 comments.php:121
+msgid "(required)"
+msgstr ""
+
+#: comments.php:87
+msgid "Your Comment here..."
+msgstr ""
+
+#: comments.php:94
+msgid "Logged in as"
+msgstr ""
+
+#: comments.php:98
+msgid "Log out of this account"
+msgstr ""
+
+#: comments.php:98
+msgid "Log out"
+msgstr ""
+
+#: comments.php:98
+msgid "&raquo;"
+msgstr ""
+
+#: comments.php:109
+msgid "Name"
+msgstr ""
+
+#: comments.php:114
+msgid "Your Name*"
+msgstr ""
+
+#: comments.php:121 options.php:125
+msgid "Email"
+msgstr ""
+
+#: comments.php:126
+msgid "Your E-Mail*"
+msgstr ""
+
+#: comments.php:137
+msgid "Website"
+msgstr ""
+
+#: comments.php:142
+msgid "Got a website?"
+msgstr ""
+
+#: comments.php:155
+msgid "Send Message"
+msgstr ""
+
+#: content-page.php:10 content-portfolio-compact.php:38
+#: content-portfolio-full-width.php:30 meta-footer.php:4
+msgid "Tags:"
+msgstr ""
+
+#: content.php:25
+msgid "Pages:"
+msgstr ""
+
+#: functions.php:198
+msgid "Sidebar 1"
+msgstr ""
+
+#: functions.php:199
+msgid "The first (primary) sidebar."
+msgstr ""
+
+#: functions.php:208
+msgid "Footer 1"
+msgstr ""
+
+#: functions.php:209 functions.php:218 functions.php:227 functions.php:236
+msgid "Footer Column"
+msgstr ""
+
+#: functions.php:217
+msgid "Footer 2"
+msgstr ""
+
+#: functions.php:226
+msgid "Footer 3"
+msgstr ""
+
+#: functions.php:235
+msgid "Footer 4"
+msgstr ""
+
+#: functions.php:292
+#, php-format
+msgid "<cite class=\"fn comment-citation\">%s</cite>"
+msgstr ""
+
+#: functions.php:296
+msgid "Edit"
+msgstr ""
+
+#: functions.php:301
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: functions.php:411 library/bones.php:728
+msgid "Read"
+msgstr ""
+
+#: functions.php:411 library/bones.php:728 library/post-formats.php:16
+msgid "Read More"
+msgstr ""
+
+#: index.php:12 single.php:10
+msgid "Blog"
+msgstr ""
+
+#: meta-footer.php:3
+msgid "Author:"
+msgstr ""
+
+#: nav-post.php:2
+msgid "Post Navigation"
+msgstr ""
+
+#: options.php:34
+msgid "One"
+msgstr ""
+
+#: options.php:35
+msgid "Two"
+msgstr ""
+
+#: options.php:36
+msgid "Three"
+msgstr ""
+
+#: options.php:37
+msgid "Four"
+msgstr ""
+
+#: options.php:38
+msgid "Five"
+msgstr ""
+
+#: options.php:43
+msgid "French Toast"
+msgstr ""
+
+#: options.php:44
+msgid "Pancake"
+msgstr ""
+
+#: options.php:45
+msgid "Omelette"
+msgstr ""
+
+#: options.php:46
+msgid "Crepe"
+msgstr ""
+
+#: options.php:47
+msgid "Waffle"
+msgstr ""
+
+#: options.php:81
+msgid "Responsive Layout Large (Max Width: 1170px)"
+msgstr ""
+
+#: options.php:82
+msgid "Responsive Layout Medium (Max Width: 960px)"
+msgstr ""
+
+#: options.php:83
+msgid "Fixed Width (Constant Width: 960px)"
+msgstr ""
+
+#: options.php:88
+msgid "Medium Size Preview Images"
+msgstr ""
+
+#: options.php:89
+msgid "Large Size Preview Images"
+msgstr ""
+
+#: options.php:90
+msgid "Full Width Preview Images"
+msgstr ""
+
+#: options.php:91
+msgid "Full Width Preview Images with Centered Content"
+msgstr ""
+
+#: options.php:96
+msgid "Stretched Layout"
+msgstr ""
+
+#: options.php:97
+msgid "Boxed Layout"
+msgstr ""
+
+#: options.php:102
+msgid "Standard header with a conventional horizontal menu"
+msgstr ""
+
+#: options.php:103
+msgid "Compact header with mobile style menu"
+msgstr ""
+
+#: options.php:108 options.php:129 options.php:145
+msgid "None"
+msgstr ""
+
+#: options.php:109 options.php:130
+msgid "Facebook"
+msgstr ""
+
+#: options.php:110 options.php:131
+msgid "Twitter"
+msgstr ""
+
+#: options.php:111 options.php:132
+msgid "LinkedIn"
+msgstr ""
+
+#: options.php:112 options.php:133
+msgid "Pinterest"
+msgstr ""
+
+#: options.php:113 options.php:134
+msgid "Google+"
+msgstr ""
+
+#: options.php:114 options.php:135
+msgid "Skype"
+msgstr ""
+
+#: options.php:115 options.php:138
+msgid "Tumblr"
+msgstr ""
+
+#: options.php:116 options.php:136
+msgid "Dribbble"
+msgstr ""
+
+#: options.php:117 options.php:137
+msgid "Github"
+msgstr ""
+
+#: options.php:118
+msgid "Paypal"
+msgstr ""
+
+#: options.php:119
+msgid "Soundcloud"
+msgstr ""
+
+#: options.php:120
+msgid "Behance"
+msgstr ""
+
+#: options.php:121
+msgid "Flickr"
+msgstr ""
+
+#: options.php:122 options.php:139
+msgid "Vimeo"
+msgstr ""
+
+#: options.php:123
+msgid "Youtube"
+msgstr ""
+
+#: options.php:124
+msgid "Phone"
+msgstr ""
+
+#: options.php:143
+msgid "Left Sidebar"
+msgstr ""
+
+#: options.php:144
+msgid "Right Sidebar"
+msgstr ""
+
+#: options.php:186
+msgid "Header"
+msgstr ""
+
+#: options.php:190
+msgid "Logo"
+msgstr ""
+
+#: options.php:191
+msgid "Choose the image to use as the site logo."
+msgstr ""
+
+#: options.php:197
+msgid "<h3>Fullsize Logo Dimensions</h3>"
+msgstr ""
+
+#: options.php:203 options.php:232
+msgid "Logo Width (px)"
+msgstr ""
+
+#: options.php:204 options.php:233
+msgid "The width of the logo image (in pixels)."
+msgstr ""
+
+#: options.php:210 options.php:239
+msgid "Logo Height (px)"
+msgstr ""
+
+#: options.php:211 options.php:240
+msgid "The height of the logo image (in pixels)."
+msgstr ""
+
+#: options.php:217 options.php:246
+msgid "Logo Vertical Offset (px)"
+msgstr ""
+
+#: options.php:218 options.php:247
+msgid ""
+"The distance between the top of the page and the top of the logo image (in "
+"pixels)."
+msgstr ""
+
+#: options.php:226
+msgid "<h3>Mobile Logo Dimensions</h3>"
+msgstr ""
+
+#: options.php:254
+msgid "<h3>Social Icon #1</h3>"
+msgstr ""
+
+#: options.php:259 options.php:294 options.php:329 options.php:364
+#: options.php:483 options.php:504 options.php:525 options.php:546
+msgid "Icon"
+msgstr ""
+
+#: options.php:260 options.php:295 options.php:330 options.php:365
+#: options.php:484 options.php:505 options.php:526 options.php:547
+msgid "Choose a social icon to display"
+msgstr ""
+
+#: options.php:267 options.php:302 options.php:337 options.php:372
+#: options.php:491 options.php:512 options.php:533 options.php:554
+msgid "URL"
+msgstr ""
+
+#: options.php:268 options.php:303 options.php:338 options.php:492
+#: options.php:513 options.php:534 options.php:555
+msgid "The URL of the page to open when the icon is clicked."
+msgstr ""
+
+#: options.php:274 options.php:309 options.php:344 options.php:379
+msgid "Phone Number"
+msgstr ""
+
+#: options.php:275 options.php:310 options.php:345 options.php:380
+msgid "The phone number to dial when a user taps the icon on a smartphone."
+msgstr ""
+
+#: options.php:281 options.php:316 options.php:351 options.php:386
+msgid "Email Address"
+msgstr ""
+
+#: options.php:282 options.php:317 options.php:352 options.php:387
+msgid "The email address to address emails to when users click the icon."
+msgstr ""
+
+#: options.php:289
+msgid "<h3>Social Icon #2</h3>"
+msgstr ""
+
+#: options.php:324
+msgid "<h3>Social Icon #3</h3>"
+msgstr ""
+
+#: options.php:359
+msgid "<h3>Social Icon #4</h3>"
+msgstr ""
+
+#: options.php:373
+msgid "The URL to open when the icon is clicked."
+msgstr ""
+
+#: options.php:393
+msgid "Sidebar"
+msgstr ""
+
+#: options.php:397
+msgid "Sidebar on Archive Pages"
+msgstr ""
+
+#: options.php:398
+msgid "Choose where the sidebar should appear on all archive pages."
+msgstr ""
+
+#: options.php:406
+msgid "Sidebar Position on Blog Page"
+msgstr ""
+
+#: options.php:407
+msgid "Choose where the sidebar should appear on the default blog page."
+msgstr ""
+
+#: options.php:415
+msgid "Sidebar Position on Posts"
+msgstr ""
+
+#: options.php:416
+msgid "Choose where the sidebar should appear on all blog posts."
+msgstr ""
+
+#: options.php:424
+msgid "Sidebar Position on Pages"
+msgstr ""
+
+#: options.php:425
+msgid "Choose where the sidebar should appear on all pages (by default)."
+msgstr ""
+
+#: options.php:434
+msgid "Footer"
+msgstr ""
+
+#: options.php:438
+msgid "Display Footer?"
+msgstr ""
+
+#: options.php:439
+msgid "Show the footer widget area."
+msgstr ""
+
+#: options.php:445
+msgid "Footer Layout"
+msgstr ""
+
+#: options.php:446
+msgid "Choose the layout of widgets in the footer."
+msgstr ""
+
+#: options.php:458
+msgid "<h3>Subfooter</h3>"
+msgstr ""
+
+#: options.php:463
+msgid "Display Subfooter?"
+msgstr ""
+
+#: options.php:464
+msgid "Show the subfooter."
+msgstr ""
+
+#: options.php:470
+msgid "Copyright Text"
+msgstr ""
+
+#: options.php:471
+msgid "The text to display inside the subfooter ."
+msgstr ""
+
+#: options.php:478
+msgid "<h3>Subfooter Social Icon #1</h3>"
+msgstr ""
+
+#: options.php:499
+msgid "<h3>Subfooter Social Icon #2</h3>"
+msgstr ""
+
+#: options.php:520
+msgid "<h3>Subfooter Social Icon #3</h3>"
+msgstr ""
+
+#: options.php:541
+msgid "<h3>Subfooter Social Icon #4</h3>"
+msgstr ""
+
+#: options.php:564
+msgid "Styling"
+msgstr ""
+
+#: options.php:568
+msgid "Stretched or Boxed Layout"
+msgstr ""
+
+#: options.php:569
+msgid "Whether pages should span the browser window or be contained in a box."
+msgstr ""
+
+#: options.php:577
+msgid "Display Page Shadow?"
+msgstr ""
+
+#: options.php:578
+msgid "Show a shadow on boxed pages."
+msgstr ""
+
+#: options.php:584
+msgid "Site Background"
+msgstr ""
+
+#: options.php:585
+msgid "Choose a color and image for the site background."
+msgstr ""
+
+#: options.php:592
+msgid "Cover Background?"
+msgstr ""
+
+#: options.php:593
+msgid ""
+"Automatically resize the background image so it fills the browser window."
+msgstr ""
+
+#: options.php:600
+msgid "<h3>Color Scheme</h3>"
+msgstr ""
+
+#: options.php:605
+msgid "Base Color Scheme"
+msgstr ""
+
+#: options.php:606
+msgid ""
+"Choose a base color scheme for the site. You'll see all the colors below "
+"change to match the chosen skin.\n"
+"\t\tYou can then change any given color to customize the colors to get "
+"exactly the design you want."
+msgstr ""
+
+#: options.php:617
+msgid "<h3>Header Colors</h3>"
+msgstr ""
+
+#: options.php:622
+msgid "Social Icon Color"
+msgstr ""
+
+#: options.php:623
+msgid "The color of the social icons in the header."
+msgstr ""
+
+#: options.php:629
+msgid "Social Icon Hover Color"
+msgstr ""
+
+#: options.php:630
+msgid ""
+"The color of the social icons in the header when a mouse cursor is hovering "
+"over them."
+msgstr ""
+
+#: options.php:637
+msgid "Menu Item Color"
+msgstr ""
+
+#: options.php:638
+msgid "The color of the top-level menu items."
+msgstr ""
+
+#: options.php:644
+msgid "Menu Item Hover Color"
+msgstr ""
+
+#: options.php:645
+msgid ""
+"The color of the top-level menu items when a mouse cursor is hovering over "
+"them."
+msgstr ""
+
+#: options.php:651
+msgid "Submenu Item Color"
+msgstr ""
+
+#: options.php:652
+msgid "The color of menu items in submenus."
+msgstr ""
+
+#: options.php:658
+msgid "Submenu Item Hover Color"
+msgstr ""
+
+#: options.php:659
+msgid "The color of submenu items when a mouse cursor is hovering over them."
+msgstr ""
+
+#: options.php:665
+msgid "Submenu Background Color"
+msgstr ""
+
+#: options.php:666
+msgid "The background color of submenus."
+msgstr ""
+
+#: options.php:672
+msgid "Submenu Background Image"
+msgstr ""
+
+#: options.php:673
+msgid "Choose an image to use as the submenu background (optional)."
+msgstr ""
+
+#: options.php:680
+msgid "Header Border Color"
+msgstr ""
+
+#: options.php:681
+msgid ""
+"The color of the small border between the menu items and the social icons."
+msgstr ""
+
+#: options.php:687
+msgid "Header Background Color"
+msgstr ""
+
+#: options.php:688
+msgid "The background color of the header."
+msgstr ""
+
+#: options.php:694
+msgid "Header Background Image"
+msgstr ""
+
+#: options.php:695
+msgid "Choose an image to use as the header background (optional)."
+msgstr ""
+
+#: options.php:702
+msgid "Mobile Menu Item Color"
+msgstr ""
+
+#: options.php:703
+msgid "The color of the top-level menu items in the mobile menu."
+msgstr ""
+
+#: options.php:709
+msgid "Mobile Submenu Item Color"
+msgstr ""
+
+#: options.php:710
+msgid "The color of submenu items in the mobile menu."
+msgstr ""
+
+#: options.php:716
+msgid "Mobile Menu Current Item Color"
+msgstr ""
+
+#: options.php:717
+msgid "The color of the menu item that corresponds to the current page."
+msgstr ""
+
+#: options.php:723
+msgid "Mobile Menu Background Color"
+msgstr ""
+
+#: options.php:724
+msgid "The background color of the mobile menu."
+msgstr ""
+
+#: options.php:730
+msgid "Mobile Menu Background Image"
+msgstr ""
+
+#: options.php:731
+msgid "Choose an image to use as the mobile menu background (optional)."
+msgstr ""
+
+#: options.php:739
+msgid "<h3>Subheader Colors</h3>"
+msgstr ""
+
+#: options.php:744
+msgid "Breadcrumb Link Color"
+msgstr ""
+
+#: options.php:745
+msgid "The color of links in the breadcrumb."
+msgstr ""
+
+#: options.php:751
+msgid "Breadcrumb Link Hover Color"
+msgstr ""
+
+#: options.php:752
+msgid "The hover color of links in the breadcrumb."
+msgstr ""
+
+#: options.php:758
+msgid "Breadcrumb Current Page Color"
+msgstr ""
+
+#: options.php:759
+msgid "The color of the current page in the breadcrumb."
+msgstr ""
+
+#: options.php:766
+msgid "Page Title Color"
+msgstr ""
+
+#: options.php:767
+msgid "The color of the page title."
+msgstr ""
+
+#: options.php:773
+msgid "Subheader Background Color"
+msgstr ""
+
+#: options.php:774
+msgid "The background color of the subheader."
+msgstr ""
+
+#: options.php:780
+msgid "Subheader Background Image"
+msgstr ""
+
+#: options.php:781 options.php:2796 options.php:3006 options.php:3062
+msgid "Choose an image to use as the background (optional)."
+msgstr ""
+
+#: options.php:790
+msgid "<h3>Main Content Colors</h3>"
+msgstr ""
+
+#: options.php:797
+msgid "Main Content H1 Color"
+msgstr ""
+
+#: options.php:798
+msgid "The color of h1 elements in the main page content."
+msgstr ""
+
+#: options.php:804
+msgid "Main Content H2 Color"
+msgstr ""
+
+#: options.php:805
+msgid "The color of h2 elements in the main page content."
+msgstr ""
+
+#: options.php:811
+msgid "Main Content H3 Color"
+msgstr ""
+
+#: options.php:812
+msgid "The color of h3 elements in the main page content."
+msgstr ""
+
+#: options.php:818
+msgid "Main Content H4 Color"
+msgstr ""
+
+#: options.php:819
+msgid "The color of h4 elements in the main page content."
+msgstr ""
+
+#: options.php:825
+msgid "Main Content H5 Color"
+msgstr ""
+
+#: options.php:826
+msgid "The color of h5 elements in the main page content."
+msgstr ""
+
+#: options.php:832
+msgid "Main Content H6 Color"
+msgstr ""
+
+#: options.php:833
+msgid "The color of h6 elements in the main page content."
+msgstr ""
+
+#: options.php:839
+msgid "Main Content Text Color"
+msgstr ""
+
+#: options.php:840
+msgid "The color of text in page content."
+msgstr ""
+
+#: options.php:846
+msgid "Main Content Bolded Text Color"
+msgstr ""
+
+#: options.php:847
+msgid ""
+"The color of bolded text (text contained inside a <strong>&lt;strong&gt;</"
+"strong> element)."
+msgstr ""
+
+#: options.php:853
+msgid "Main Content Link Color"
+msgstr ""
+
+#: options.php:854
+msgid "The color of links."
+msgstr ""
+
+#: options.php:860
+msgid "Main Content Link Hover Color"
+msgstr ""
+
+#: options.php:861
+msgid "The color of links when a mouse cursor is hovering over them."
+msgstr ""
+
+#: options.php:867
+msgid "Main Content Lead Color"
+msgstr ""
+
+#: options.php:868
+msgid "The color of lead text elements in the main page content."
+msgstr ""
+
+#: options.php:874
+msgid "Main Content Intro Color"
+msgstr ""
+
+#: options.php:875
+msgid "The color of intro text elements in the main page content."
+msgstr ""
+
+#: options.php:881
+msgid "Main Content Full-Width Row Background Color"
+msgstr ""
+
+#: options.php:882
+msgid "The background color of rows that are set to display full-width."
+msgstr ""
+
+#: options.php:890
+msgid "Border Color"
+msgstr ""
+
+#: options.php:891
+msgid "The color of dividers and separators."
+msgstr ""
+
+#: options.php:897
+msgid "Blockquote Text Color"
+msgstr ""
+
+#: options.php:898
+msgid ""
+"The text color of blockquotes that <strong>don't</strong> have a color "
+"background."
+msgstr ""
+
+#: options.php:904
+msgid "Blockquote Background Color"
+msgstr ""
+
+#: options.php:905
+msgid ""
+"The background color of blockquotes (only applies to the blockquote styles "
+"that have a background)."
+msgstr ""
+
+#: options.php:911
+msgid "Blockquote Reverse Text Color"
+msgstr ""
+
+#: options.php:912 options.php:933
+msgid ""
+"The text color of blockquotes that <strong>do</strong> have a color "
+"background."
+msgstr ""
+
+#: options.php:918
+msgid "Dropcap Text Color"
+msgstr ""
+
+#: options.php:919
+msgid ""
+"The text color of dropcaps that <strong>don't</strong> have a color "
+"background."
+msgstr ""
+
+#: options.php:925
+msgid "Dropcap Background Color"
+msgstr ""
+
+#: options.php:926
+msgid ""
+"The background color of dropcaps (only applies to the dropcap styles that "
+"have a background)"
+msgstr ""
+
+#: options.php:932
+msgid "Dropcap Reverse Text Color"
+msgstr ""
+
+#: options.php:939
+msgid "Tooltip Link Color"
+msgstr ""
+
+#: options.php:940
+msgid "The color of the link that has to be hovered over to show the tooltip."
+msgstr ""
+
+#: options.php:946
+msgid "Tooltip Background Color"
+msgstr ""
+
+#: options.php:947
+msgid "The background color of tooltips."
+msgstr ""
+
+#: options.php:953
+msgid "Tooltip Text Color"
+msgstr ""
+
+#: options.php:954
+msgid "The color of text in tooltips."
+msgstr ""
+
+#: options.php:960
+msgid "Highlight Text Color"
+msgstr ""
+
+#: options.php:961
+msgid "The color of highlighted text."
+msgstr ""
+
+#: options.php:967
+msgid "Highlight Background Color"
+msgstr ""
+
+#: options.php:968
+msgid "The background color of highlighted text."
+msgstr ""
+
+#: options.php:974
+msgid "List Icon Color"
+msgstr ""
+
+#: options.php:975
+msgid "The color of icons in lists."
+msgstr ""
+
+#: options.php:981
+msgid "List Text Color"
+msgstr ""
+
+#: options.php:982
+msgid "The color of text in lists."
+msgstr ""
+
+#: options.php:988
+msgid "Label SC Text Color"
+msgstr ""
+
+#: options.php:989
+msgid "The color of text inside the label element."
+msgstr ""
+
+#: options.php:995
+msgid "Label SC Background Color"
+msgstr ""
+
+#: options.php:996
+msgid "The background color of the label element."
+msgstr ""
+
+#: options.php:1002
+msgid "Badge SC Text Color"
+msgstr ""
+
+#: options.php:1003 options.php:1010
+msgid "The color of text inside the badge element."
+msgstr ""
+
+#: options.php:1009
+msgid "Badge SC Background Color"
+msgstr ""
+
+#: options.php:1016
+msgid "Popover Link Color"
+msgstr ""
+
+#: options.php:1017
+msgid "The color of the link that has to be hovered over to show the popover."
+msgstr ""
+
+#: options.php:1023
+msgid "Popover Heading Color"
+msgstr ""
+
+#: options.php:1024
+msgid "The color of the title in popovers."
+msgstr ""
+
+#: options.php:1030
+msgid "Popover Text Color"
+msgstr ""
+
+#: options.php:1031
+msgid "The color of text inside popovers."
+msgstr ""
+
+#: options.php:1037
+msgid "Accordion Link Color (Minimalist Style)"
+msgstr ""
+
+#: options.php:1038
+msgid ""
+"The text color of the toggle headings in accordions (applies to the "
+"minimalist accordion style)."
+msgstr ""
+
+#: options.php:1044
+msgid "Accordion Active Link Color (Minimalist Style)"
+msgstr ""
+
+#: options.php:1045
+msgid ""
+"The color of an accordion toggle heading when it's open (applies to the "
+"minimalist accordion style)."
+msgstr ""
+
+#: options.php:1051
+msgid "Accordion Divider Color (Minimalist Style)"
+msgstr ""
+
+#: options.php:1058
+msgid "Accordion Background Color (Block Style)"
+msgstr ""
+
+#: options.php:1059
+msgid ""
+"The background color of the toggle heading (applies to the block accordion "
+"style)."
+msgstr ""
+
+#: options.php:1065
+msgid "Accordion Reverse Link Color (Block Style)"
+msgstr ""
+
+#: options.php:1066
+msgid ""
+"The text color of the toggle headings in accordions (applies to the block "
+"accordion style)"
+msgstr ""
+
+#: options.php:1072
+msgid "Accordion Active Background Color (Block Style)"
+msgstr ""
+
+#: options.php:1073
+msgid ""
+"The background color of the accordion toggle heading when it's open (applies "
+"to the block accordion style)"
+msgstr ""
+
+#: options.php:1079
+msgid "Accordion Active Reverse Link Color (Block Style)"
+msgstr ""
+
+#: options.php:1080
+msgid ""
+"The text color of an accordion toggle heading when it's open (applies to the "
+"block accordion style)."
+msgstr ""
+
+#: options.php:1086
+msgid "Alert Border Color"
+msgstr ""
+
+#: options.php:1093
+msgid "Alert Background Color"
+msgstr ""
+
+#: options.php:1100
+msgid "Alert Text Color"
+msgstr ""
+
+#: options.php:1107
+msgid "Counter Circle Label Color"
+msgstr ""
+
+#: options.php:1114
+msgid "Counter Circle Track Color"
+msgstr ""
+
+#: options.php:1121
+msgid "Counter Circle Bar Color"
+msgstr ""
+
+#: options.php:1128
+msgid "Counter Circle Background Color"
+msgstr ""
+
+#: options.php:1135
+msgid "Counter Box Percentage Color"
+msgstr ""
+
+#: options.php:1142
+msgid "Counter Box Caption Color"
+msgstr ""
+
+#: options.php:1150
+msgid "Counter Box Background Color"
+msgstr ""
+
+#: options.php:1158
+msgid "Progress Bar Label Color"
+msgstr ""
+
+#: options.php:1165
+msgid "Progress Bar Icon Color"
+msgstr ""
+
+#: options.php:1172
+msgid "Progress Bar Background Color"
+msgstr ""
+
+#: options.php:1179
+msgid "Progress Bar Color"
+msgstr ""
+
+#: options.php:1186
+msgid "Button Background Color"
+msgstr ""
+
+#: options.php:1193
+msgid "Button Text Color"
+msgstr ""
+
+#: options.php:1200
+msgid "Button Hover Background Color"
+msgstr ""
+
+#: options.php:1207
+msgid "Button Hover Text Color"
+msgstr ""
+
+#: options.php:1216
+msgid "Content Box Style #1 - Title Color"
+msgstr ""
+
+#: options.php:1223
+msgid "Content Box Style #1 - Icon Color"
+msgstr ""
+
+#: options.php:1230
+msgid "Content Box Style #2 - Title Color"
+msgstr ""
+
+#: options.php:1237
+msgid "Content Box Style #2 - Icon Color"
+msgstr ""
+
+#: options.php:1244
+msgid "Content Box Style #2 - Icon Background Color"
+msgstr ""
+
+#: options.php:1251
+msgid "Content Box Style #3 - Title Color"
+msgstr ""
+
+#: options.php:1258
+msgid "Content Box Style #3 - Icon Color"
+msgstr ""
+
+#: options.php:1265
+msgid "Content Box Style #3 - Icon Background Color"
+msgstr ""
+
+#: options.php:1272
+msgid "Content Box Style #4 - Title Color"
+msgstr ""
+
+#: options.php:1279
+msgid "Content Box Style #4 - Icon Color"
+msgstr ""
+
+#: options.php:1286
+msgid "Content Box Style #4 - Icon Border Color"
+msgstr ""
+
+#: options.php:1293
+msgid "Content Box Style #5 - Title Color"
+msgstr ""
+
+#: options.php:1300
+msgid "Content Box Style #5 - Icon Color"
+msgstr ""
+
+#: options.php:1307
+msgid "Content Box Style #6 - Title Color"
+msgstr ""
+
+#: options.php:1314
+msgid "Content Box Style #6 - Icon Color"
+msgstr ""
+
+#: options.php:1321
+msgid "Content Box Style #6 - Icon Background Color"
+msgstr ""
+
+#: options.php:1328
+msgid "Content Box Style #6 - Border Color"
+msgstr ""
+
+#: options.php:1335
+msgid "Content Box Style #6 - Content Color"
+msgstr ""
+
+#: options.php:1342
+msgid "Content Box Style #6 - Content Background Color"
+msgstr ""
+
+#: options.php:1349
+msgid "Content Box Style #6 - Button Background Color"
+msgstr ""
+
+#: options.php:1356
+msgid "Content Box Style #6 - Button Text Color"
+msgstr ""
+
+#: options.php:1363
+msgid "Content Box Style #6 - Button Background Hover Color"
+msgstr ""
+
+#: options.php:1370
+msgid "Content Box Style #6 - Button Text Hover Color"
+msgstr ""
+
+#: options.php:1377
+msgid "Icon Color"
+msgstr ""
+
+#: options.php:1384
+msgid "Icon Background Color"
+msgstr ""
+
+#: options.php:1391
+msgid "Icon Border Color"
+msgstr ""
+
+#: options.php:1398
+msgid "Icon Hover Color"
+msgstr ""
+
+#: options.php:1405
+msgid "Icon Hover Background Color"
+msgstr ""
+
+#: options.php:1412
+msgid "Icon Hover Border Color"
+msgstr ""
+
+#: options.php:1419
+msgid "Icon Without Circle Color"
+msgstr ""
+
+#: options.php:1426
+msgid "Icon Without Circle Hover Color"
+msgstr ""
+
+#: options.php:1433
+msgid "Profile Name Color"
+msgstr ""
+
+#: options.php:1440
+msgid "Profile Title Color"
+msgstr ""
+
+#: options.php:1447
+msgid "Profile Social Icon Color"
+msgstr ""
+
+#: options.php:1454
+msgid "Profile Social Icon Hover Color"
+msgstr ""
+
+#: options.php:1461
+msgid "Pricing Plan Header Color"
+msgstr ""
+
+#: options.php:1468
+msgid "Pricing Plan Price Color"
+msgstr ""
+
+#: options.php:1475
+msgid "Pricing Plan Header Background Color"
+msgstr ""
+
+#: options.php:1482
+msgid "Pricing Plan Details Color"
+msgstr ""
+
+#: options.php:1489
+msgid "Pricing Plan Details Background Color"
+msgstr ""
+
+#: options.php:1496
+msgid "Pricing Table Border Color"
+msgstr ""
+
+#: options.php:1503
+msgid "Pricing Table Header Color"
+msgstr ""
+
+#: options.php:1510
+msgid "Pricing Table Price Color"
+msgstr ""
+
+#: options.php:1517
+msgid "Pricing Table Header Background Color"
+msgstr ""
+
+#: options.php:1524
+msgid "Pricing Table Details Color"
+msgstr ""
+
+#: options.php:1531
+msgid "Pricing Table Details Background Color"
+msgstr ""
+
+#: options.php:1538
+msgid "Pricing Table Details Alternate Background Color"
+msgstr ""
+
+#: options.php:1545
+msgid "Pricing Table Featured Header Color"
+msgstr ""
+
+#: options.php:1552
+msgid "Pricing Table Featured Header Background Color"
+msgstr ""
+
+#: options.php:1559
+msgid "Posts SC Title Color"
+msgstr ""
+
+#: options.php:1566
+msgid "Posts SC Title Hover Color"
+msgstr ""
+
+#: options.php:1573
+msgid "Posts SC Date Color"
+msgstr ""
+
+#: options.php:1580
+msgid "Posts SC Comment Count Color"
+msgstr ""
+
+#: options.php:1587
+msgid "Posts SC Comment Count Hover Color"
+msgstr ""
+
+#: options.php:1594
+msgid "Tab Heading Color"
+msgstr ""
+
+#: options.php:1601
+msgid "Tab Heading Background Color"
+msgstr ""
+
+#: options.php:1608
+msgid "Tab Active Heading Color"
+msgstr ""
+
+#: options.php:1615
+msgid "Tab Active Heading Background Color"
+msgstr ""
+
+#: options.php:1622
+msgid "Tab Hover Heading Color"
+msgstr ""
+
+#: options.php:1629
+msgid "Tab Hover Heading Background Color"
+msgstr ""
+
+#: options.php:1636
+msgid "Tab Content Color"
+msgstr ""
+
+#: options.php:1643
+msgid "Tab Content Background Color"
+msgstr ""
+
+#: options.php:1650
+msgid "Hero Unit Background Color"
+msgstr ""
+
+#: options.php:1657
+msgid "Hero Unit Heading Color"
+msgstr ""
+
+#: options.php:1664
+msgid "Hero Unit Text Color"
+msgstr ""
+
+#: options.php:1671
+msgid "Thumbnail Background Color"
+msgstr ""
+
+#: options.php:1678
+msgid "Thumbnail Heading Color"
+msgstr ""
+
+#: options.php:1685
+msgid "Thumbnail Text Color"
+msgstr ""
+
+#: options.php:1692
+msgid "Testimonial Style #1 - Text Color"
+msgstr ""
+
+#: options.php:1699
+msgid "Testimonial Style #1 - Background Color"
+msgstr ""
+
+#: options.php:1706
+msgid "Testimonia Style #1 - Author Name Color"
+msgstr ""
+
+#: options.php:1713
+msgid "Testimonial Style #1 - Author Title Color"
+msgstr ""
+
+#: options.php:1720
+msgid "Testimonial Style #2 - Text Color"
+msgstr ""
+
+#: options.php:1727
+msgid "Testimonial Style #2 - Background Color"
+msgstr ""
+
+#: options.php:1734
+msgid "Testimonial Style #2 - Author Name Color"
+msgstr ""
+
+#: options.php:1741
+msgid "Testimonial Style #2 - Author Title Color"
+msgstr ""
+
+#: options.php:1748
+msgid "Revolution Slider Paginator Color"
+msgstr ""
+
+#: options.php:1755
+msgid "Revolution Slider Paginator Opacity"
+msgstr ""
+
+#: options.php:1762
+msgid "Revolution Slider Current Paginator Color"
+msgstr ""
+
+#: options.php:1769
+msgid "Revolution Slider Current Paginator Opacity"
+msgstr ""
+
+#: options.php:1776
+msgid "Revolution Slider Nav Arrow Background (Big)"
+msgstr ""
+
+#: options.php:1783
+msgid "Revolution Slider Nav Arrow Background Opacity (Big)"
+msgstr ""
+
+#: options.php:1790
+msgid "Revolution Slider Nav Arrow Hover Background (Big)"
+msgstr ""
+
+#: options.php:1797
+msgid "Revolution Slider Nav Arrow Background Hover Opacity (Big)"
+msgstr ""
+
+#: options.php:1804
+msgid "Revolution Slider Nav Arrow Background (Small)"
+msgstr ""
+
+#: options.php:1811
+msgid "Revolution Slider Nav Arrow Background Opacity (Small)"
+msgstr ""
+
+#: options.php:1818
+msgid "Revolution Slider Nav Arrow Hover Background (Small)"
+msgstr ""
+
+#: options.php:1825
+msgid "Revolution Slider Nav Arrow Hover Background Opacity (Small)"
+msgstr ""
+
+#: options.php:1832
+msgid "Revolution Slider \"Dark\" Caption Color"
+msgstr ""
+
+#: options.php:1839
+msgid "Revolution Slider \"Light\" Caption Color"
+msgstr ""
+
+#: options.php:1846
+msgid "Revolution Slider \"Colored\" Caption Color"
+msgstr ""
+
+#: options.php:1854
+msgid "Revolution Slider \"Dark\" Button Text Color"
+msgstr ""
+
+#: options.php:1861
+msgid "Revolution Slider \"Dark\" Button Background Color"
+msgstr ""
+
+#: options.php:1868
+msgid "Revolution Slider \"Dark\" Button Hover Text Color"
+msgstr ""
+
+#: options.php:1875
+msgid "Revolution Slider \"Dark\" Button Hover Background Color"
+msgstr ""
+
+#: options.php:1883
+msgid "Revolution Slider \"Light\" Button Text Color"
+msgstr ""
+
+#: options.php:1890
+msgid "Revolution Slider \"Light\" Button Background Color"
+msgstr ""
+
+#: options.php:1897
+msgid "Revolution Slider \"Light\" Button Hover Text Color"
+msgstr ""
+
+#: options.php:1904
+msgid "Revolution Slider \"Light\" Button Hover Background Color"
+msgstr ""
+
+#: options.php:1912
+msgid "Revolution Slider \"Colored\" Button Text Color"
+msgstr ""
+
+#: options.php:1919
+msgid "Revolution Slider \"Colored\" Button Background Color"
+msgstr ""
+
+#: options.php:1926
+msgid "Revolution Slider \"Colored\" Button Hover Text Color"
+msgstr ""
+
+#: options.php:1933
+msgid "Revolution Slider \"Colored\" Button Hover Background Color"
+msgstr ""
+
+#: options.php:1941
+msgid "Nivo Slider Paginator Color"
+msgstr ""
+
+#: options.php:1948
+msgid "Nivo Slider Paginator Opacity"
+msgstr ""
+
+#: options.php:1955
+msgid "Nivo Slider Current Paginator Color"
+msgstr ""
+
+#: options.php:1962
+msgid "Nivo Slider Current Paginator Opacity"
+msgstr ""
+
+#: options.php:1969
+msgid "Nivo Slider Hover Paginator Color"
+msgstr ""
+
+#: options.php:1976
+msgid "Nivo Slider Hover Paginator Opacity"
+msgstr ""
+
+#: options.php:1983
+msgid "Nivo Slider Nav Arrow Color"
+msgstr ""
+
+#: options.php:1990
+msgid "Nivo Slider Nav Arrow Background Color"
+msgstr ""
+
+#: options.php:1997
+msgid "Nivo Slider Nav Arrow Background Opacity"
+msgstr ""
+
+#: options.php:2004
+msgid "Nivo Slider Nav Arrow Hover Color"
+msgstr ""
+
+#: options.php:2011
+msgid "Nivo Slider Nav Arrow Background Hover Color"
+msgstr ""
+
+#: options.php:2018
+msgid "Nivo Slider Nav Arrow Background Hover Opacity"
+msgstr ""
+
+#: options.php:2027
+msgid "Flexslider Nav Arrow Color"
+msgstr ""
+
+#: options.php:2034
+msgid "Flexslider Nav Arrow Background Color"
+msgstr ""
+
+#: options.php:2041
+msgid "Flexslider Nav Arrow Background Opacity"
+msgstr ""
+
+#: options.php:2048
+msgid "Flexslider Nav Arrow Hover Color"
+msgstr ""
+
+#: options.php:2055
+msgid "Flexslider Nav Arrow Background Hover Color"
+msgstr ""
+
+#: options.php:2062
+msgid "Flexslider Nav Arrow Background Hover Opacity"
+msgstr ""
+
+#: options.php:2069
+msgid "Flexslider Caption Background Color"
+msgstr ""
+
+#: options.php:2076
+msgid "Flexslider Caption Background Opacity"
+msgstr ""
+
+#: options.php:2083
+msgid "Flexslider Caption Heading Color"
+msgstr ""
+
+#: options.php:2090
+msgid "Flexslider Caption Text Color"
+msgstr ""
+
+#: options.php:2097
+msgid "Portfolio Filter Color"
+msgstr ""
+
+#: options.php:2104
+msgid "Portfolio Filter Hover Color"
+msgstr ""
+
+#: options.php:2111
+msgid "Portfolio Filter Current Color"
+msgstr ""
+
+#: options.php:2121
+msgid "Portfolio Icon Filter Color"
+msgstr ""
+
+#: options.php:2128
+msgid "Portfolio Icon Filter Hover Color"
+msgstr ""
+
+#: options.php:2135
+msgid "Portfolio Icon Filter Current Color"
+msgstr ""
+
+#: options.php:2144
+msgid "Portfolio Overlay Background Color"
+msgstr ""
+
+#: options.php:2151
+msgid "Portfolio Overlay Background Opacity"
+msgstr ""
+
+#: options.php:2158
+msgid "Portfolio Overlay Icon Color"
+msgstr ""
+
+#: options.php:2165
+msgid "Portfolio Overlay Icon Hover Color"
+msgstr ""
+
+#: options.php:2172
+msgid "Portfolio Overlay Divider Color"
+msgstr ""
+
+#: options.php:2179
+msgid "Portfolio Overlay Divider Opacity"
+msgstr ""
+
+#: options.php:2186
+msgid "Portfolio Pagination Arrow Color"
+msgstr ""
+
+#: options.php:2193
+msgid "Portfolio Pagination Arrow Hover Color"
+msgstr ""
+
+#: options.php:2200
+msgid "Portfolio Pagination Arrow Disabled Color"
+msgstr ""
+
+#: options.php:2207
+msgid "Portfolio Pagination Page Number Color"
+msgstr ""
+
+#: options.php:2214
+msgid "Portfolio Pagination Page Number Hover Color"
+msgstr ""
+
+#: options.php:2221
+msgid "Portfolio Pagination Current Page Number Color"
+msgstr ""
+
+#: options.php:2228
+msgid "Portfolio Title Color"
+msgstr ""
+
+#: options.php:2235
+msgid "Portfolio Title Hover Color"
+msgstr ""
+
+#: options.php:2242
+msgid "Portfolio Category Color"
+msgstr ""
+
+#: options.php:2249
+msgid "Portfolio Category Hover Color"
+msgstr ""
+
+#: options.php:2256
+msgid "Portfolio Excerpt Color"
+msgstr ""
+
+#: options.php:2263
+msgid "Portfolio Item Title Color"
+msgstr ""
+
+#: options.php:2270
+msgid "Portfolio Item Link Color"
+msgstr ""
+
+#: options.php:2277
+msgid "Portfolio Item Link Hover Color"
+msgstr ""
+
+#: options.php:2284
+msgid "Portfolio Item Categories Heading Color"
+msgstr ""
+
+#: options.php:2291
+msgid "Portfolio Item Category Color"
+msgstr ""
+
+#: options.php:2298
+msgid "Portfolio Nav Title Color"
+msgstr ""
+
+#: options.php:2305
+msgid "Portfolio Nav Title Hover Color"
+msgstr ""
+
+#: options.php:2312
+msgid "Portfolio Nav Category Color"
+msgstr ""
+
+#: options.php:2319
+msgid "Portfolio Nav Category Hover Color"
+msgstr ""
+
+#: options.php:2326
+msgid "Portfolio Nav Icon Color"
+msgstr ""
+
+#: options.php:2333
+msgid "Portfolio Nav Icon Hover Color"
+msgstr ""
+
+#: options.php:2340
+msgid "Blog Pagination Button Background Color"
+msgstr ""
+
+#: options.php:2347
+msgid "Blog Pagination Button Text Color"
+msgstr ""
+
+#: options.php:2354
+msgid "Blog Pagination Button Background Hover Color"
+msgstr ""
+
+#: options.php:2361
+msgid "Blog Pagination Button Text Hover Color"
+msgstr ""
+
+#: options.php:2368
+msgid "Blog Pagination Disabled Button Background Color"
+msgstr ""
+
+#: options.php:2375
+msgid "Blog Pagination Disabled Button Text Color"
+msgstr ""
+
+#: options.php:2382
+msgid "Blog Pagination Current Page Button Background Color"
+msgstr ""
+
+#: options.php:2389
+msgid "Blog Pagination Current Page Button Text Color"
+msgstr ""
+
+#: options.php:2396
+msgid "Blog Post Preview Date Color"
+msgstr ""
+
+#: options.php:2403
+msgid "Blog Post Preview Date Hover Color"
+msgstr ""
+
+#: options.php:2410
+msgid "Blog Post Preview Meta Color"
+msgstr ""
+
+#: options.php:2417
+msgid "Blog Post Preview Meta Hover Color"
+msgstr ""
+
+#: options.php:2424
+msgid "Blog Post Preview Meta Icon Color"
+msgstr ""
+
+#: options.php:2431
+msgid "Blog Post Preview Meta Icon Hover Color"
+msgstr ""
+
+#: options.php:2438
+msgid "Blog Post Preview Title Color"
+msgstr ""
+
+#: options.php:2445
+msgid "Blog Post Preview Title Hover Color"
+msgstr ""
+
+#: options.php:2452
+msgid "Blog Post Preview Excerpt Color"
+msgstr ""
+
+#: options.php:2459
+msgid "Blog Post Preview Read More Button Background Color"
+msgstr ""
+
+#: options.php:2466
+msgid "Blog Post Preview Read More Button Text Color"
+msgstr ""
+
+#: options.php:2473
+msgid "Blog Post Preview Read More Button Background Hover Color"
+msgstr ""
+
+#: options.php:2480
+msgid "Blog Post Preview Read More Button Text Hover Color"
+msgstr ""
+
+#: options.php:2487
+msgid "Blog Divider Color"
+msgstr ""
+
+#: options.php:2494
+msgid "Post Date Color"
+msgstr ""
+
+#: options.php:2501
+msgid "Post Date Hover Color"
+msgstr ""
+
+#: options.php:2508
+msgid "Post Meta Color"
+msgstr ""
+
+#: options.php:2515
+msgid "Post Meta Hover Color"
+msgstr ""
+
+#: options.php:2522
+msgid "Post Meta Icon Color"
+msgstr ""
+
+#: options.php:2529
+msgid "Post Meta Icon Hover Color"
+msgstr ""
+
+#: options.php:2536
+msgid "Post Title Color"
+msgstr ""
+
+#: options.php:2543
+msgid "Post Title Hover Color"
+msgstr ""
+
+#: options.php:2550
+msgid "Post Bottom Divider Color"
+msgstr ""
+
+#: options.php:2557
+msgid "Post Author Label Color"
+msgstr ""
+
+#: options.php:2564
+msgid "Post Author Link Color"
+msgstr ""
+
+#: options.php:2571
+msgid "Post Author Link Hover Color"
+msgstr ""
+
+#: options.php:2578
+msgid "Post Tag Label Color"
+msgstr ""
+
+#: options.php:2585
+msgid "Post Tag Link Color"
+msgstr ""
+
+#: options.php:2592
+msgid "Post Tag Link Hover Color"
+msgstr ""
+
+#: options.php:2599
+msgid "Post Nav Title Color"
+msgstr ""
+
+#: options.php:2606
+msgid "Post Nav Button Background Color"
+msgstr ""
+
+#: options.php:2613
+msgid "Post Nav Button Text Color"
+msgstr ""
+
+#: options.php:2620
+msgid "Post Nav Button Background Hover Color"
+msgstr ""
+
+#: options.php:2627
+msgid "Post Nav Button Text Hover Color"
+msgstr ""
+
+#: options.php:2634
+msgid "Post Comments Title Color"
+msgstr ""
+
+#: options.php:2641
+msgid "Post Comments Author Color"
+msgstr ""
+
+#: options.php:2648
+msgid "Post Comments Link Color"
+msgstr ""
+
+#: options.php:2655
+msgid "Post Comments Link Hover Color"
+msgstr ""
+
+#: options.php:2662
+msgid "Post Comments Text Color"
+msgstr ""
+
+#: options.php:2669
+msgid "Post Comment Form Title Color"
+msgstr ""
+
+#: options.php:2676
+msgid "Post Comment Form Label Color"
+msgstr ""
+
+#: options.php:2683
+msgid "Post Comment Form Input Background Color"
+msgstr ""
+
+#: options.php:2690
+msgid "Post Comment Form Input Text Color"
+msgstr ""
+
+#: options.php:2697
+msgid "Post Comment Form Input Placeholder Color"
+msgstr ""
+
+#: options.php:2704
+msgid "Post Comment Form Button Background Color"
+msgstr ""
+
+#: options.php:2711
+msgid "Post Comment Form Button Text Color"
+msgstr ""
+
+#: options.php:2718
+msgid "Post Comment Form Button Background Hover Color"
+msgstr ""
+
+#: options.php:2725
+msgid "Post Comment Form Button Text Hover Color"
+msgstr ""
+
+#: options.php:2732
+msgid "Form Label Color"
+msgstr ""
+
+#: options.php:2739
+msgid "Form Input Background Color"
+msgstr ""
+
+#: options.php:2746
+msgid "Form Input Text Color"
+msgstr ""
+
+#: options.php:2753
+msgid "Form Input Placeholder Color"
+msgstr ""
+
+#: options.php:2760
+msgid "Form Button Background Color"
+msgstr ""
+
+#: options.php:2767
+msgid "Form Button Text Color"
+msgstr ""
+
+#: options.php:2774
+msgid "Form Button Background Hover Color"
+msgstr ""
+
+#: options.php:2781
+msgid "Form Button Text Hover Color"
+msgstr ""
+
+#: options.php:2788
+msgid "Main Content Background Color"
+msgstr ""
+
+#: options.php:2789 options.php:2999 options.php:3055
+msgid "The background color."
+msgstr ""
+
+#: options.php:2795
+msgid "Main Content Background Image"
+msgstr ""
+
+#: options.php:2804
+msgid "<h3>Sidebar Colors</h3>"
+msgstr ""
+
+#: options.php:2809
+msgid "Sidebar Widget Title Color"
+msgstr ""
+
+#: options.php:2816
+msgid "Sidebar Widget Heading Color"
+msgstr ""
+
+#: options.php:2823
+msgid "Sidebar Widget Text Color"
+msgstr ""
+
+#: options.php:2830
+msgid "Sidebar Widget Link Color"
+msgstr ""
+
+#: options.php:2837
+msgid "Sidebar Widget Link Hover Color"
+msgstr ""
+
+#: options.php:2844
+msgid "Sidebar Twitter Widget Text Color"
+msgstr ""
+
+#: options.php:2851
+msgid "Sidebar Navigation Background Color"
+msgstr ""
+
+#: options.php:2858
+msgid "Sidebar Navigation Border Color"
+msgstr ""
+
+#: options.php:2865
+msgid "Sidebar Navigation Link Color"
+msgstr ""
+
+#: options.php:2872
+msgid "Sidebar Navigation Link Hover Color"
+msgstr ""
+
+#: options.php:2879
+msgid "Sidebar Navigation Current Page Background Color"
+msgstr ""
+
+#: options.php:2886
+msgid "Sidebar Navigation Current Page Link Color"
+msgstr ""
+
+#: options.php:2895
+msgid "<h3>Footer Colors</h3>"
+msgstr ""
+
+#: options.php:2900
+msgid "Footer Heading Color"
+msgstr ""
+
+#: options.php:2907
+msgid "Footer Text Color"
+msgstr ""
+
+#: options.php:2914
+msgid "Footer Link Color"
+msgstr ""
+
+#: options.php:2921
+msgid "Footer Link Hover Color"
+msgstr ""
+
+#: options.php:2928
+msgid "Footer Button Text Color"
+msgstr ""
+
+#: options.php:2929 options.php:2943 options.php:2957 options.php:2964
+#: options.php:2971 options.php:2978
+msgid "."
+msgstr ""
+
+#: options.php:2935
+msgid "Footer Button Background Color"
+msgstr ""
+
+#: options.php:2942
+msgid "Footer Button Text Hover Color"
+msgstr ""
+
+#: options.php:2949
+msgid "Footer Button Hover Background Color"
+msgstr ""
+
+#: options.php:2956
+msgid "Footer Form Input Text Color"
+msgstr ""
+
+#: options.php:2963
+msgid "Footer Form Input Background Color"
+msgstr ""
+
+#: options.php:2970
+msgid "Footer Form Input Active Text Color"
+msgstr ""
+
+#: options.php:2977
+msgid "Footer Form Input Active Background Color"
+msgstr ""
+
+#: options.php:2984
+msgid "Footer Icon Color"
+msgstr ""
+
+#: options.php:2991
+msgid "Footer Icon Hover Color"
+msgstr ""
+
+#: options.php:2998
+msgid "Footer Background Color"
+msgstr ""
+
+#: options.php:3005
+msgid "Footer Background Image"
+msgstr ""
+
+#: options.php:3014
+msgid "<h3>Subfooter Colors</h3>"
+msgstr ""
+
+#: options.php:3019
+msgid "Subfooter Text Color"
+msgstr ""
+
+#: options.php:3026
+msgid "Subfooter Link Color"
+msgstr ""
+
+#: options.php:3033
+msgid "Subfooter Link Hover Color"
+msgstr ""
+
+#: options.php:3040
+msgid "Subfooter Icon Color"
+msgstr ""
+
+#: options.php:3047
+msgid "Subfooter Icon Hover Color"
+msgstr ""
+
+#: options.php:3054
+msgid "Subfooter Background Color"
+msgstr ""
+
+#: options.php:3061
+msgid "Subfooter Background Image"
+msgstr ""
+
+#: options.php:3069
+msgid "Other"
+msgstr ""
+
+#: options.php:3074
+msgid "<h3>Portfolio</h3>"
+msgstr ""
+
+#: options.php:3079
+msgid "Portfolio Slug"
+msgstr ""
+
+#: options.php:3080
+msgid ""
+"The slug to use for portfolio URL rewrite. <strong>You must go to WP-Admin > "
+"Settings > Permalinks and resave your permalink settings after changing this "
+"value.</strong>"
+msgstr ""
+
+#: options.php:3087
+msgid "Portfolio Items Heading"
+msgstr ""
+
+#: options.php:3088
+msgid "The heading to show at the top of all portfolio items.</strong>"
+msgstr ""
+
+#: options.php:3095
+msgid "Portfolio Filter Heading"
+msgstr ""
+
+#: options.php:3096
+msgid ""
+"The heading to show above the filter listing in the portfolio item pages.</"
+"strong>"
+msgstr ""
+
+#: page-no-sidebar.php:41 page-sidebar-left-submenu.php:45
+#: page-sidebar-left.php:42 page-sidebar-right-submenu.php:45
+#: page-sidebar-right.php:42 page.php:36 single-portfolio.php:43
+msgid "This is the error message in the page-custom.php template."
+msgstr ""
+
+#: search.php:7
+msgid "Search Results for:"
+msgstr ""
+
+#: search.php:41
+msgid "Couldn't find what you're looking for."
+msgstr ""
+
+#: search.php:44
+msgid "Please try another search phrase."
+msgstr ""
+
+#: sidebar.php:45
+msgid "Please activate some Widgets."
+msgstr ""
+
+#: single-custom_type.php:33 taxonomy-custom_cat.php:37
+#, php-format
+msgid ""
+"Posted <time class=\"updated\" datetime=\"%1$s\">%2$s</time> by <span class="
+"\"author\">%3$s</span> <span class=\"amp\">&</span> filed under %4$s."
+msgstr ""
+
+#: single-custom_type.php:47
+msgid "Custom Tags:"
+msgstr ""
+
+#: single-custom_type.php:68
+msgid "This is the error message in the single-custom_type.php template."
+msgstr ""
+
+#: single.php:41
+msgid "This is the error message in the single.php template."
+msgstr ""
+
+#: taxonomy-custom_cat.php:44
+msgid "Read More &raquo;"
+msgstr ""
+
+#: taxonomy-custom_cat.php:79
+msgid "This is the error message in the taxonomy-custom_cat.php template."
+msgstr ""
+
+#: taxonomy-portfolio_category.php:10
+msgid "Portfolio Category:"
+msgstr ""
+
+#: inc/post-options/init.php:652
+msgid "Please Try Again"
+msgstr ""
+
+#: inc/post-options/init.php:669
+msgid "Remove Embed"
+msgstr ""
+
+#: inc/post-options/init.php:675
+#, php-format
+msgid "No oEmbed Results Found for %s. View more info at"
+msgstr ""
+
+#: library/bones.php:284 library/bones.php:302
+msgid "The Main Menu"
+msgstr ""
+
+#: library/bones.php:285 library/bones.php:446
+msgid "Footer Links"
+msgstr ""
+
+#: library/bones.php:475
+msgid "Home"
+msgstr ""
+
+#: library/bones.php:626
+msgid "No Related Posts Yet!"
+msgstr ""
+
+#: library/bones.php:674
+msgid "First"
+msgstr ""
+
+#: library/bones.php:707
+msgid "Last"
+msgstr ""
+
+#: library/bones.php:744
+#, php-format
+msgid "Posts by %s"
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:166
+#: plugins/plugin-registration.php:178
+msgid "Install Required Plugins"
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:167
+#: plugins/plugin-registration.php:179
+msgid "Install Plugins"
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:168
+#: plugins/plugin-registration.php:180
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:169
+msgid "Something went wrong."
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:180
+#: plugins/class-tgm-plugin-activation.php:498
+#: plugins/plugin-registration.php:192
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:181
+#: plugins/class-tgm-plugin-activation.php:1862
+#: plugins/plugin-registration.php:193
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:182
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:523
+#: plugins/class-tgm-plugin-activation.php:2079
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:549
+#, php-format
+msgid "The following plugin was activated successfully: %s."
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:702
+msgid "Dismiss this notice"
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:1102
+msgid "External Link"
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:1106
+msgid "Private Repository"
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:1109
+msgid "Pre-Packaged"
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:1112
+msgid "WordPress Repository"
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:1115
+msgid "Required"
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:1115
+msgid "Recommended"
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:1118
+msgid "Not Installed"
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:1120
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:1294
+#, php-format
+msgid ""
+"No plugins to install or activate. <a href=\"%1$s\" title=\"Return to the "
+"Dashboard\">Return to the Dashboard</a>"
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:1311
+msgid "Plugin"
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:1312
+msgid "Source"
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:1313
+msgid "Type"
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:1314
+msgid "Status"
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:1333
+msgid "Install"
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:1334
+msgid "Activate"
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:1844
+msgid "Install package not available."
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:1845
+#, php-format
+msgid "Downloading install package from <span class=\"code\">%s</span>&#8230;"
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:1846
+msgid "Unpacking the package&#8230;"
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:1847
+msgid "Installing the plugin&#8230;"
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:1848
+msgid "Plugin install failed."
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:1849
+msgid "Plugin installed successfully."
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:1861
+msgid "Plugin activation failed."
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:1975
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:1976
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:1976
+#: plugins/class-tgm-plugin-activation.php:1984
+msgid "Show Details"
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:1976
+#: plugins/class-tgm-plugin-activation.php:1984
+msgid "Hide Details"
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:1977
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:1978
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:1981
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:1982
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:1983
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:1984
+#, php-format
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:1985
+msgid "All installations have been completed."
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:1986
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: plugins/plugin-registration.php:181
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: plugins/plugin-registration.php:194
+#, php-format
+msgid "All plugins installed and activated successfully. %s"
+msgstr ""

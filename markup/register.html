@@ -1,0 +1,57 @@
+<h3>Register</h3><noscript>&lt;meta HTTP-EQUIV="refresh" content="0;url='http://ec2-23-23-66-7.compute-1.amazonaws.com/wordpress/wp-login.php?action=register&amp;#038;ModPagespeed=noscript'" /&gt;&lt;/p&gt; &lt;style&gt;&lt;!--table,div,span,font,p{display:none} --&gt;&lt;/style&gt; &lt;div style="display:block"&gt;Please click &lt;a href="http://ec2-23-23-66-7.compute-1.amazonaws.com/wordpress/wp-login.php?action=register&amp;#038;ModPagespeed=noscript"&gt;here&lt;/a&gt; if you are not redirected within a few seconds.&lt;/div&gt;</noscript>
+<p class="message register">
+	Fill in the form below to receive your FREE SIM
+</p>
+<form name="registerform" id="registerform" action="http://ec2-23-23-66-7.compute-1.amazonaws.com/wordpress/wp-login.php?action=register" method="post"><p><label for="user_email">E-mail (Username)<br/><input type="text" name="user_email" id="user_email" class="input" value="" size="25"/></label></p>
+	<p id="first_name-p"><label id="first_name-label" for="first_name">First Name<br/><input type="text" name="first_name" id="first_name" class="input" value=""/></label></p>
+	<p id="last_name-p"><label id="last_name-label" for="last_name">Last Name<br/><input type="text" name="last_name" id="last_name" class="input" value=""/></label></p>
+	<p id="rpr_phone_number-p"><label id="rpr_phone_number-label" for="rpr_phone_number">Phone Number<br/><input type="text" name="rpr_phone_number" id="rpr_phone_number" class="input" value=""/></label></p>
+	<p id="rpr_street_address-p"><label id="rpr_street_address-label" for="rpr_street_address">Street Address<br/><input type="text" name="rpr_street_address" id="rpr_street_address" class="input" value=""/></label></p>
+	<p id="rpr_postcode-p"><label id="rpr_postcode-label" for="rpr_postcode">Postcode<br/><input type="text" name="rpr_postcode" id="rpr_postcode" class="input" value=""/></label></p>
+	<p id="rpr_sim_type-p"><label id="rpr_sim_type-label" for="rpr_sim_type">SIM type<br/>
+	<select name="rpr_sim_type" id="rpr_sim_type"><option id="rpr_sim_type-standard_sim" value="Standard SIM">Standard SIM</option><option id="rpr_sim_type-microsim" value="MicroSIM">MicroSIM</option><option id="rpr_sim_type-nanosim" value="NanoSIM">NanoSIM</option></select>
+	</label></p>
+	<p id="pass1-p"><label id="pass1-label" for="pass1">Password<br/><input type="password" autocomplete="off" name="pass1" id="pass1"/></label></p>
+	<p id="pass2-p"><label id="pass2-label" for="pass2">Confirm Password<br/><input type="password" autocomplete="off" name="pass2" id="pass2"/></label></p>
+	<div id="pass-strength-result">Strength Indicator</div>
+	<p id="pass_strength_msg">Your password must be at least 8 characters long. To make your password stronger, use upper and lower case letters, numbers, and the following symbols !@#$%^&amp;*()</p>	<p id="reg_passmail">A password will be e-mailed to you.</p>
+	<br class="clear"/>
+	<input type="hidden" name="redirect_to" value="http://ec2-23-23-66-7.compute-1.amazonaws.com/wordpress/shop/"/>
+	<p class="submit"><input type="submit" name="wp-submit" id="wp-submit" class="button button-primary button-large" value="Register"/></p>
+</form>
+
+<p id="nav">
+<a href="http://ec2-23-23-66-7.compute-1.amazonaws.com/wordpress/wp-login.php">Log in</a> | <a href="http://ec2-23-23-66-7.compute-1.amazonaws.com/wordpress/wp-login.php?action=lostpassword" title="Password Lost and Found">Lost your password?</a>
+</p>
+		<script type="text/javascript">try{document.getElementById('user_login').focus();}catch(e){}
+if(typeof wpOnload=='function')wpOnload();</script>
+	
+						<script type="text/javascript">jQuery(document).ready(function(){jQuery("#user_login").removeAttr("size");jQuery("#user_login").parent().attr("id","user_login-label");jQuery("#user_login").parent().parent().attr("id","user_login-p");jQuery("#user_email").removeAttr("size");jQuery("#user_email").parent().attr("id","user_email-label");jQuery("#user_email").parent().parent().attr("id","user_email-p");});</script>
+										<script type="text/javascript">//<![CDATA[
+pwsL10n={empty:"Strength Indicator",short:"Too Short",bad:"Bad Password",good:"Good Password",strong:"Strong Password",mismatch:"Password Mismatch"}
+function check_pass_strength(){var user=jQuery("#user_email").val();var pass1=jQuery("#pass1").val();var pass2=jQuery("#pass2").val();var strength;jQuery("#pass-strength-result").removeClass("short bad good strong mismatch");if(!pass1){jQuery("#pass-strength-result").html(pwsL10n.empty);return;}
+strength=passwordStrength(pass1,user,pass2);switch(strength){case 2:jQuery("#pass-strength-result").addClass("bad").html(pwsL10n['bad']);break;case 3:jQuery("#pass-strength-result").addClass("good").html(pwsL10n['good']);break;case 4:jQuery("#pass-strength-result").addClass("strong").html(pwsL10n['strong']);break;case 5:jQuery("#pass-strength-result").addClass("mismatch").html(pwsL10n['mismatch']);break;default:jQuery("#pass-strength-result").addClass("short").html(pwsL10n['short']);}}
+function passwordStrength(password1,username,password2){password2=typeof password2!=='undefined'?password2:'';var shortPass=1,badPass=2,goodPass=3,strongPass=4,mismatch=5,symbolSize=0,natLog,score;if(password1!==password2&&password2.length>0)
+return mismatch
+if(password1.length<8)
+return shortPass
+if(password1.toLowerCase()===username.toLowerCase())
+return badPass;if(password1.match(/[0-9]/))
+symbolSize+=10;if(password1.match(/[a-z]/))
+symbolSize+=26;if(password1.match(/[A-Z]/))
+symbolSize+=26;if(password1.match(/[^a-zA-Z0-9]/))
+symbolSize+=31;natLog=Math.log(Math.pow(symbolSize,password1.length));score=natLog/Math.LN2;if(score<40)
+return badPass
+if(score<56)
+return goodPass
+return strongPass;}
+jQuery(document).ready(function(){jQuery("#pass1").val("").keyup(check_pass_strength);jQuery("#pass2").val("").keyup(check_pass_strength);});
+//]]></script>
+										<!--[if (lte IE 8)]>
+					<script type="text/javascript">
+					document.getElementById("registerform").childNodes[0].style.display = "none";
+					</script>
+					<![endif]-->
+					<!--[if (gt IE 8)|!(IE)]><!-->
+					<script type="text/javascript">document.getElementById("registerform").childNodes[1].style.display="none";</script>
+					<!--<![endif]-->

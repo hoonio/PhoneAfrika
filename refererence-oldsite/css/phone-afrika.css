@@ -1,0 +1,667 @@
+@charset "UTF-8";
+/* CSS Document */
+
+html {}
+
+body {
+	margin:0px;
+	padding:0px;
+	font-family: 'Open Sans', sans-serif;
+	font-size:13px;
+	height:100%;
+	color:#4a4645;
+	line-height:1.4;
+	background-color:#333;
+	}
+.logo-holder {float:left; height:116px; padding-top:8px;}
+.logo-holder a{border:none;}
+.logo-holder img{border:none;}
+.clear {clear:both;}
+
+/************************ PAGE STRUCTURE *****************************/
+
+.container {width:975px; margin:0px auto;}
+.pa-nav-outer {background-color:#e30c2e; height:50px; 	background-image: url(../images/nav-back-grad.png);}
+.left-col {width:163px; float:left; padding: 25px 10px 25px 10px;}
+.right-col {width:275px; float:left; padding: 25px 12px 25px 24px; }
+.main-col-right {width:756px; float:left; padding:25px 12px 25px 24px;}
+.main-col-left {width:567px; float:left; padding:25px 12px 25px 24px;}
+
+.header {background-color:#FFF;}
+.header .nav ul {margin:0px; padding:0px;	}
+.header .nav ul li {float:left; list-style:none;}
+.header .nav ul li a { 
+	text-decoration:none; 
+	color:#fff; 
+	height:35px;
+	font-family: 'Open Sans', sans-serif;
+	font-size:15px;
+	font-weight:500;
+	padding:15px 20px 0px 20px; 
+	display:inline-block;
+	border-right:1px solid #e30c2e; 
+	border-left:1px solid #c20000; 
+	}
+.header .nav ul li a:hover { color:#f9ce2e; background-color:#bc0000;}
+.pa-top-message {
+	font-family: 'Oswald', sans-serif;
+	width:600px;
+	font-weight:700;
+	font-size:30px;
+	color:#f4a600;
+	float:left;
+	text-align:center;
+	margin-top:66px;
+	line-height:42px;
+	padding:0px;
+	}
+.pa-top-message p {padding:0px; margin:0px; }
+.pa-phone {	
+	font-family: 'Oswald', sans-serif;
+	font-weight:700;
+	font-size:19px;
+	color:#e30c2e;
+	text-align:right;
+	padding-top:53px;	
+	}
+
+.bck-container {background:url(../images/back-grad-yel.png) repeat-x #fce8af; }
+
+.bck-container .container {background:url(../images/new-grad-yellow-curve.png) no-repeat ; min-height:673px;}
+
+.home-bck {background:url(../images/back-grad-yel.png) repeat-x;}
+.bck-container.home-bck {background:url(../images/home-white.png) 1000px 0 no-repeat;}
+.bck-container .container.home-bck {background:url(../images/home-bck.jpg) no-repeat;}
+
+.nav ul .contact {border-right:none !important;}
+.nav ul .home {border-left:none !important; margin-left:-20px;}
+
+.content-centered { text-align: center; margin-top:10px;}
+.content-centered .contact-butt {margin-right:10px;}
+.promo { 
+	font-size:32px; 	
+	font-family: 'Oswald', sans-serif;
+	font-weight:700;
+	line-height:1.8em;
+	}
+
+.promo-2 { 
+	font-size:24px; 	
+	font-family: 'Oswald', sans-serif;
+	font-weight:700;
+	line-height:1.8em;
+	color:#FFF;
+	}
+.promo-latest { 
+	font-size:18px; 	
+	font-family: 'Oswald', sans-serif;
+	font-weight:700;
+	line-height:1.4em;
+	color:#FFF;
+	}
+/************************ COL WIDTHS *****************************/
+
+.home-bck .main-col-left {width:675px; padding:25px 8px 25px 0px;}
+.home-bck .right-col {width:284px; padding:25px 0px 25px 8px;}
+.main-col-left {width:755px; padding:25px 8px 25px 0px;}
+.right-col {width:194px; padding:25px 0px 25px 8px;}
+
+
+/************************ COLOURS *****************************/
+
+.red {color:#e30c2e;}
+.yellow {color:#f9cf2f;}
+.orange {color:#f4a600;}
+.dark-grey {color:#4a4645;}
+
+a .red {color:#e30c2e;}
+
+/************************ SCROLLER *****************************/
+.scroller-img {float:left; width:480px; padding-top:25px; padding-left:70px;}
+.scroller {
+	font-family: 'Oswald', sans-serif;
+	font-weight:700;
+	font-size:80px;
+	color:#e30c2e;
+	line-height:90px;
+	}
+.scroller .article {padding-top:35px; }
+.scroller-lower { display:block; clear:left; font-size:36px; line-height:42px; text-transform:uppercase; text-align:center;}
+.scroller .article .small-text {font-size:40px;}
+
+
+/************************ COLOUR BOXES *****************************/
+
+.pa-box {
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px;
+	border-radius: 6px;
+	}
+.pa-box .title { 
+	display:block; 
+	color:#FFF;
+	font-family: 'Oswald', sans-serif;
+	font-weight:700;
+	font-size:26px;
+	line-height:28px;
+	padding:10px 15px 8px;
+	-moz-border-radius: 6px 6px 0px 0px;
+	-webkit-border-radius: 6px 6px 0px 0px;
+	border-radius: 6px 6px 0px 0px;
+	}
+
+
+.pa-box-latest {background:white; color:#4A4645;}
+.pa-box-latest .red-band {background-color:#b90000;}
+.pa-box-latest .yellow-band {background-color:#f08a09;}
+
+.pa-box-yellow .title {background-color:#f08a09;}
+.pa-box-red .title {background-color:#b90000;}
+.pa-box-yellow {background:url(../images/pa-box-yellow-grad.jpg) repeat-x #ffca08; color:#414042;}
+.pa-box-red {background:url(../images/pa-box-red-grad.jpg) repeat-x #ed1b24; color:#ffffff;}
+.home-bck .pa-box-yellow {height:175px; }
+.home-bck .pa-box-red {height:175px; }
+.box-content {padding:10px 15px 15px 15px;}
+.box-content a {color:white; }
+.box-content a:hover {color:#f9cf2f; }
+.country-links  { padding-top:6px; padding-left:20px; display:inline-block;}
+.country-links a { color:#e30c2e; margin-right:5px;}
+.country-links a:hover { color:white;}
+.col-1 {width:210px; float:left;}
+.pa-box-red .country-links a {color:#f9cf2f;}
+.pa-box-red .country-links a:hover {color:white;}
+
+.pa-box-white {
+	background-color: white;
+	border: 1px solid #F8CE2E;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+	font-size: 13px;
+	}
+.latest-title {color:#4a4645; font-size:34px;	font-family: 'Oswald', sans-serif;
+	font-weight:700;
+}
+
+/************************ SEARCH BOXES *****************************/
+
+.pa-inputbox { float:left;}
+
+.searchbox .searchinput { 
+	border:1px solid #e20b2e; 
+	height:30px; 
+	width:300px;
+	padding:0px 10px 0px 10px;
+	-moz-border-radius: 6px 0px 0px 6px;
+	-webkit-border-radius: 6px 0px 0px 6px;
+	border-radius: 6px 0px 0px 6px;
+	float:left;
+	line-height:30px;
+	}
+.button { 
+	color:#ffffff; 
+	background-color:#e30c2e; 
+	border:1px solid #e20b2e; 
+	height:32px; 
+	width:40px; 
+	cursor:pointer;
+	-moz-border-radius: 0px 6px 6px 0px;
+	-webkit-border-radius: 0px 6px 6px 0px;
+	border-radius: 0px 6px 6px 0px;
+	display:inline-block;
+	}
+
+.pa-box-red .searchinput {width:192px; border-color:#f4a600;}
+.pa-box-red .button { border-color:#f4a600; background-color:#f4a600; color:#ffffff;}
+.searchbox .topupsearch {width:420px;}
+
+/************************ FLAGS *****************************/
+
+.flag-name {
+	height: 29px;
+	list-style: none;
+	padding: 0px 2px 8px 0;
+	}
+
+.flag {
+	background-repeat: no-repeat;
+	height: 29px;
+	width: 22px;
+	float: left;
+	padding: 0px 2px 8px 0;
+	}
+
+/************************ FAQ *****************************/
+
+.faq { margin-top:30px;}
+.jwts_title {
+	font-family: 'Oswald', sans-serif;
+	background-color: #fff;
+	margin-bottom: 10px;
+		-moz-border-radius: 6px 6px 6px 6px;
+	-webkit-border-radius: 6px 6px 6px 6px;
+	border-radius: 6px 6px 6px 6px;
+	}
+
+.jwts_title a {
+	text-decoration: none;
+	vertical-align: top;
+	font-size: 18px;
+	padding-left: 10px;
+	color: #f4a600;
+	display: block;
+	padding:5px 10px;
+	}
+
+.answer-block {
+	padding:6px 10px 7px;
+	background-color: #f4a600;
+	float: right;
+	padding-right: 15px;
+	padding-left: 15px;
+	color: white;
+	font-size: 16px;
+	display:block;
+	position:relative;
+	margin-top:-5px;
+	margin-right:-10px;
+	-moz-border-radius: 0px 6px 6px 0px;
+	-webkit-border-radius: 0px 6px 6px 0px;
+	border-radius: 0px 6px 6px 0px;
+	}
+	
+.jwts_slidewrapper {
+	margin-bottom:30px;
+	display:block;
+	line-height:1.7em;
+	}
+.faq-title-text {
+	font-family: 'Open Sans', sans-serif;
+	font-size:16px;
+	color:#4a4645;
+	}
+	
+	
+/************************ CONTACT FORM *****************************/
+	
+.general-form label {
+	clear: both;
+	height: 22px;
+	width: 145px;
+	padding: 5px 20px 5px 0;
+	float: left;
+	text-align: right;
+	display: block;
+	}	
+	
+.form-field {
+	margin-bottom: 5px;
+	border: 1px solid #fff;
+	background-color: #fff;
+	float: left;
+	padding: 5px;
+	height: 15px;
+	width: 350px;
+	font-size: 14px;
+	color: #555;
+	}	
+
+.form-checkbox {
+	margin-bottom: 5px;
+	border: 1px solid #fff;
+	background-color: #fff;
+	float: left;
+	padding: 5px;
+	height: 15px;
+	width: 350px;
+	font-size: 14px;
+	color: #555;
+	}	
+
+
+.form-area {
+	margin-bottom: 5px;
+	border: none;
+	background-color: #fff;
+	float: left;
+	padding: 5px;
+	width: 350px;
+	font-size: 14px;
+	color: #555;
+	}
+	
+.general-form-submit-text {
+	float: left;
+	height: 228px;
+	vertical-align: bottom;
+	width: 170px;
+	position: relative;
+	}
+		
+.general-form {
+	width: 540px;
+	float: left;
+	}
+.bottom-text {
+	bottom: 10px;
+	position: absolute;
+	}
+.contact-butt {
+	color: white;
+	background-color: #E30C2E;
+	border: 1px solid #E20B2E;
+	height: 23px;
+	cursor: pointer;
+	-moz-border-radius: 6px 6px 6px 6px;
+	-webkit-border-radius: 6px 6px 6px 6px;
+	border-radius: 6px 6px 6px 6px;
+	display: inline-block;
+	padding-bottom: 3px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 6px;
+	margin-top:10px;
+	}
+.yellow-butt {
+	color: white;
+	background-color: #F08A09;
+	border: 1px solid #F08A09;
+	height: 23px;
+	cursor: pointer;
+	-moz-border-radius: 6px 6px 6px 6px;
+	-webkit-border-radius: 6px 6px 6px 6px;
+	border-radius: 6px 6px 6px 6px;
+	display: inline-block;
+	padding-bottom: 3px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 6px;
+	margin-top:10px;
+	}
+.contact-butt a{ text-decoration:none;}
+.account-box .contact-butt a{ text-decoration:none; padding:0px; margin:0px; color:white;}
+
+/************************ PAGE FORMAT *****************************/
+
+.page-intro-title {
+	font-size: 68px;
+	line-height: 90px;
+	display:block;
+	margin-bottom:5px;
+	}
+
+.page-intro {
+	font-family: 'Oswald', sans-serif;
+	font-weight: 700;
+	font-size: 26px;
+	line-height: 1.3em;
+	margin-bottom:10px;
+	margin-top:0px;
+	padding-top:0px;
+	}
+
+.page-intro a {text-decoration:none;}
+.page-intro a:hover {color:#f4a600;}
+.page-intro ul {padding:10px 0px 0px 25px; margin:0px; font-size:18px;}
+
+
+/************************ LARGE BUTTONS *****************************/
+
+.largebuttoncontainer {margin-left:-20px;}
+
+.largebutton a {
+	font-family: 'Oswald', sans-serif;
+	font-weight: 700;
+	padding: 45px 10px 10px 10px;
+	font-size: 18px;
+	color: #e30c2e;
+	height: 65px;
+	text-align:center;
+	display: inline-block;
+	text-decoration: none;
+	float: left;
+	margin: 10px 0px 10px 20px;
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px;
+	border-radius: 6px;
+	background: #f8ce2e;
+	}	
+
+.largebutton a:hover {background: url(../images/pa-box-yellow-grad.jpg) repeat-x #FFCA08; color:white;}
+.wide {width: 218px;}
+
+.rates-label {
+	font-family: 'Oswald', sans-serif;
+	font-weight: 700;
+	padding: 0px 10px 0px 10px;
+	font-size: 18px;
+	text-align:center;
+	display: inline-block;
+	float: left;
+	margin: 0px 0px 0px 20px;
+	}
+
+.rates-result {
+	font-family: 'Oswald', sans-serif;
+	font-weight: 700;
+	padding: 15px 10px 20px 10px;
+	font-size: 18px;
+	color: #e30c2e;
+	height: 65px;
+	text-align:center;
+	display: inline-block;
+	text-decoration: none;
+	float: left;
+	margin: 10px 0px 10px 20px;
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px;
+	border-radius: 6px;
+	background: #f8ce2e;
+	}
+		
+.rate {
+	width:100%;
+	font-size:32px; 
+	background-color:#f9edbc; 
+	padding-top:3px; 
+	padding-bottom:3px;
+	display:inline-block; 
+	}
+
+.pa-select-container { width:200px; overflow:hidden; float:left; display:inline-block;
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px;
+	border-radius: 6px;
+	margin-top:3px;
+	}
+
+.pa-select select { 
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px;
+	border-radius: 6px;
+	margin-top:0px; 
+	height:30px; 
+	width:218px; 
+	float:left;
+	margin-left:13px;
+	-webkit-appearance: none;
+	box-sizing: inherit;
+	-webkit-box-align: center;
+	white-space: none;
+	padding-top:0px; 
+	padding-left:10px;
+	border:none; 
+	background:url(../images/pa-drop-arrow.png) no-repeat 165px 10px #fff !important;
+	-webkit-rtl-ordering: logical;
+	}
+	
+.pa-select {margin-top:0px; padding-top:0px;}
+.pa-select label {display:inline-block; display:inline-block; float:left;}
+
+
+/************************ ACCOUNT PAGE *****************************/
+
+.account-nav {
+	
+	}
+
+.account-nav ul {padding:0px; margin:0px;}
+.account-nav ul li { list-style:none; padding:0px; margin:0px;}
+.account-nav ul li a {
+	padding:0px 10px 0px 10px; 
+	margin:0px 0px 10px 0px;
+	background-color: #e30c2e;
+	height: 56px;
+	width:140px;
+	overflow:hidden;
+	background-image: url(../images/nav-back-grad.png);
+	background-position:top;
+	background-size:contain;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+	cursor:pointer;
+	color:#FFF;
+	text-decoration:none;
+	display:block;
+	}
+.account-nav ul li a:hover {color: #F9CE2E; background-color: #BC0000;}
+
+.account-nav ul li img { width:18px; padding-right:122px; margin-top:0px; padding-top:5px; border:0px;}
+
+.account-page-intro {
+	font-family: 'Oswald', sans-serif;
+	font-weight: 700;
+	font-size: 35px;
+	line-height: 1.3em;
+	margin-bottom:10px;
+	margin-top:0px;
+	padding-top:0px;
+	}
+
+.account-page-intro a {text-decoration:none;}
+.account-page-intro a:hover {color:#f4a600;}
+.account-page-intro ul {padding:10px 0px 0px 25px; margin:0px; font-size:18px;}
+.account-box {
+	width:153px; 
+	min-height:126px; 
+	background-color:#FFF; 
+	border:1px solid #f8ce2e;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+	padding:10px 10px 0px 10px;
+	font-size:13px;
+	float:left;
+	margin-left:15px;
+	margin-right:15px;
+	margin-bottom:30px;
+	}
+.account-box .title {font-size:16px;}
+.price-box { 
+	font-family: 'Oswald', sans-serif;
+	font-weight: 700;
+	font-size: 28px;
+	padding: 6px 0px;
+	line-height:1.2em;
+	background-color:#f9edbc;
+	text-align:center;
+	margin-top:8px;
+	margin-bottom:3px;
+	color:#E30C2E;
+	}
+.account-box .contact-butt {
+	display:block; font-size:13px;
+	text-align:center;
+	}
+.current-bal {margin-left:0px; background-color:#f8ce2e;}
+
+.account-box a {
+	font-size:13px;
+	 text-decoration:underline;
+	 color:#E30C2E;
+	 margin-top:20px;
+	 display:block;
+	 margin-bottom:15px;
+	}
+.account-box a:hover { color:#F9CE2E;}
+
+.account-box-long {width:320px; margin-right:0px;}
+
+.box-details {margin-left:0px; min-height:240px;}
+
+.box-details .price-box { 
+	min-height:136px;
+	font-family: 'Open Sans', sans-serif;
+	font-size:15px;
+	line-height:1.4em;
+	text-align:left;
+	padding:10px;
+	font-weight:normal;
+	}
+	
+.recent-calls {
+	min-height:240px;
+	width:525px;
+	margin-right:0px;
+	}
+	
+.call-history table { font-size:13px;}
+.call-history table th { font-weight:bold; color:#E30C2E; text-align:left; padding-bottom:5px; padding-top:5px;}
+.call-history table td { padding: 5px 5px 5px 5px;}
+.calls-archive {margin: 5px 0px 10px 0px;}
+.calls-archive a { text-decoration:none; padding:5px 0px 5px 0px; margin:0px;}
+.calls-archive .current {padding:5px; background-color:#f9edbc;}
+
+.account-box-full-width {width:750px; margin-left:0px;}
+.account-box-full-width .contact-butt { text-align:left; width:auto; display:inline;
+color: white;
+background-color: #E30C2E;
+border: 1px solid #E20B2E;
+height: 23px;
+cursor: pointer;
+-moz-border-radius: 6px 6px 6px 6px;
+-webkit-border-radius: 6px 6px 6px 6px;
+border-radius: 6px 6px 6px 6px;
+display: inline-block;
+padding-bottom: 3px;
+padding-left: 10px;
+padding-right: 10px;
+padding-top: 6px;
+margin-top: 10px;
+}
+.account-box-full-width .form-field, .account-box-full-width .form-area { background-color:#f9edbc;}
+
+.intro-small-text {
+	color: #4A4645;
+	font-family: 'Open Sans', sans-serif;
+	font-weight:normal;
+	font-size: 15px;
+	line-height: 1.4em;
+	}
+
+/************************ FOOTER *****************************/
+
+.footer {min-height:80px; padding-top:10px;}
+.footer .nav ul { list-style:none; margin-left:-50px;}
+.footer .nav ul li a { color:#ffffff; text-decoration:none; float:left; margin:0px 10px 25px 10px; }
+.footer .nav ul li a:hover { color:#f9cf2f;}
+.amba {float:right; color:#999;}
+
+/************************ CAROUSEL *****************************/
+
+#mycarousel li {width:975px;}
+.jcarousel-next {width:20px; height:20px; cursor:pointer; float:left; margin-top:5px; background-image:url(../images/scroller-arrows.png); background-position:-25px bottom ;}
+.jcarousel-prev {width:20px; height:20px; float:left; cursor:pointer; margin-left:935px; margin-top:5px; background-image:url(../images/scroller-arrows.png); background-position:45px bottom;}
+.jcarousel-prev:hover {background-position:45px top;}
+.jcarousel-next:hover {background-position:-25px top;}
+
+
+
+
+
+
+
+
+
+

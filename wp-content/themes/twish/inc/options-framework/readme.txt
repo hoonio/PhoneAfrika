@@ -1,0 +1,1 @@
+Code contained in this folder is not the actual Options Framework code. It is integration code (CSS files, etc.). The actual options declarations are contained in the options.php file of the root directory.

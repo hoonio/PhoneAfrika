@@ -1,0 +1,165 @@
+/* Adap Admin CSS */
+/*.wpb_vc_row  .wpb_vc_param_value {*/
+/*display: none;*/
+/*}*/
+
+.adap_content_holder {
+    position: relative;
+    border-style: solid;
+    border-width: 2px;
+    border-color: gray;
+
+    margin: 3px;
+}
+
+.adap_content_holder > .controls_column {
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    top: 7px;
+    left: 0;
+    line-height: 1px;
+}
+
+.adap_content_holder > .controls_column a {
+    display: inline-block;
+    width: 12px;
+    height: 16px;
+    margin-left: 3px;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.adap_content_holder > .controls_column .column_add {
+    background-image: url(vc/add_grey.png);
+}
+
+.adap_content_holder > .controls_column .column_edit {
+    background-image: url(vc/edit_grey.png);
+}
+
+.adap_content_holder > .controls_column .column_clone {
+    background-image: url(vc/clone_grey.png);
+}
+
+.adap_content_holder > .controls_column .column_delete {
+    background-image: url(vc/remove_grey.png);
+}
+
+.adap_content_holder > .bottom-controls {
+    top: auto;
+    bottom: 7px;
+}
+
+/* Element Icons */
+
+.wpb_bootstrap_modals  .wpb-layout-element-button i.icon-wpb-adap_alert {
+    background-image: url(img/exclamation-button.png);
+}
+
+.wpb_bootstrap_modals  .wpb-layout-element-button i.icon-wpb-adap_blockquote {
+    background-image: url(img/edit-quotation.png);
+}
+
+.wpb_bootstrap_modals  .wpb-layout-element-button i.icon-wpb-adap_box {
+    background-image: url(img/layer--plus.png);
+}
+
+.wpb_bootstrap_modals  .wpb-layout-element-button i.icon-wpb-adap_blog {
+    background-image: url(img/blog.png);
+}
+
+.wpb_bootstrap_modals  .wpb-layout-element-button i.icon-wpb-adap_button {
+    background-image: url(img/ui-button.png);
+}
+
+.wpb_bootstrap_modals  .wpb-layout-element-button i.icon-wpb-adap_divider {
+    background-image: url(img/ui-separator.png);
+}
+
+.wpb_bootstrap_modals  .wpb-layout-element-button i.icon-wpb-adap_hero_unit {
+    background-image: url(img/document-hf-select.png);
+}
+
+.wpb_bootstrap_modals  .wpb-layout-element-button i.icon-wpb-adap_portfolio {
+    background-image: url(img/document-view-thumbnail.png);
+}
+
+.wpb_bootstrap_modals  .wpb-layout-element-button i.icon-wpb-adap_posts {
+    background-image: url(img/blogs-stack.png);
+}
+
+.wpb_bootstrap_modals  .wpb-layout-element-button i.icon-wpb-adap_pricing_plan {
+    background-image: url(img/money--plus.png);
+}
+
+.wpb_bootstrap_modals  .wpb-layout-element-button i.icon-wpb-adap_pricing_table {
+    background-image: url(img/table-money.png);
+}
+
+.wpb_bootstrap_modals  .wpb-layout-element-button i.icon-wpb-adap_profile {
+    background-image: url(img/user-worker-boss.png);
+}
+
+.wpb_bootstrap_modals  .wpb-layout-element-button i.icon-wpb-adap_progress {
+    background-image: url(img/ui-progress-bar.png);
+}
+
+.wpb_bootstrap_modals  .wpb-layout-element-button i.icon-wpb-adap_counter_box {
+    background-image: url(img/notification-counter-20-plus.png);
+}
+
+.wpb_bootstrap_modals  .wpb-layout-element-button i.icon-wpb-adap_counter_circle {
+    background-image: url(img/dashboard.png);
+}
+
+.wpb_bootstrap_modals  .wpb-layout-element-button i.icon-wpb-adap_searchbar {
+    background-image: url(img/ui-search-field.png);
+}
+
+.wpb_bootstrap_modals  .wpb-layout-element-button i.icon-wpb-adap_share {
+    background-image: url(img/share.png);
+}
+
+.wpb_bootstrap_modals  .wpb-layout-element-button i.icon-wpb-adap_spacer {
+    background-image: url(img/document-insert.png);
+}
+
+.wpb_bootstrap_modals  .wpb-layout-element-button i.icon-wpb-adap_testimonials {
+    background-image: url(img/balloon-smiley.png);
+}
+
+.wpb_bootstrap_modals  .wpb-layout-element-button i.icon-wpb-adap_thumbnail,
+.wpb_bootstrap_modals  .wpb-layout-element-button i.icon-wpb-adap_framed_image {
+    background-image: url(img/application-image.png);
+}
+
+.wpb_bootstrap_modals  .wpb-layout-element-button i.icon-wpb-adap_popover {
+    background-image: url(img/ui-text-field-suggestion.png);
+}
+
+.wpb_bootstrap_modals  .wpb-layout-element-button i.icon-wpb-adap_lead,
+.wpb_bootstrap_modals  .wpb-layout-element-button i.icon-wpb-adap_intro {
+    background-image: url(img/edit-padding-top.png);
+}
+
+.wpb_bootstrap_modals  .wpb-layout-element-button i.icon-wpb-adap_well {
+    background-image: url(img/edit-padding.png);
+}
+
+.wpb_bootstrap_modals  .wpb-layout-element-button i.icon-wpb-adap_small {
+    background-image: url(img/edit-size-down.png);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

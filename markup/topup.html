@@ -1,0 +1,85 @@
+<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+
+<h3>Apply a voucher</h3>
+[spacer height="14px"]
+
+<form action="#" method="post"><label>Phone number
+<input id="phoneNumber" type="text" name="phoneNumber" placeholder="447430702004" onchange="numberEntered(this);" />
+</label>
+<label>Voucher number
+<input id="voucher" type="text" name="voucher" onchange="voucherEntered(this);" placeholder="1111-2222-3333-4444-5555" />
+</label></form><form action="http://phoneafrika.s.im/pip/api/execute.mth" method="post" target="results"><textarea id="xml-parameter" style="display: none;" name="xml">enter-mobile-number</textarea><input class="btn" id="submit" type="submit" value="Check Balance" /></form> <form action="http://phoneafrika.s.im/pip/api/execute.mth" method="post" target="results"><textarea id="voucher-parameter" style="display: none;" name="xml">voucher_code_goes_here</textarea><input class="btn" id="submit" type="submit" value="Credit Voucher" /></form>
+<div></div>
+Balance
+<iframe name="results" id="balance" onload="balanceLoad()" height="30" width="100%"></iframe>
+
+
+	<script type="text/javascript">
+	window.onload=function(){
+	    var iframe=document.getElementById('balance');
+	    iframe.onload=function(){
+        this.style.display='block';
+				console.log(iframe);
+				var x = iframe.contentWindow.document;
+				console.log(x);
+				var y = (iframe.contentWindow || iframe.contentDocument);
+				if (y.document) {
+					y = y.document;
+				}
+				console.log(y.document);
+				var numBal = iframe.contentDocument.find('balance');
+				var innerDoc = (iframe.contentDocument) ? iframe.contentDocument : iframe.contentWindow.document;
+				var mainBalance = innerDoc.getElementsByTagName('get-customer-balance-response').childNodes[0]; // document.getElementById('balance').contentWindow.document.getElementsByTagName('get-customer-balance-response').childNodes[0];
+				console.log(mainBalance);
+	    };
+	};
+	function balanceLoad()
+	{
+		console.log(document.getElementById('balance'));
+		var iframe = document.getElementById('balance');
+		var numBal = iframe.contentDocument.find('balance');
+		var innerDoc = (iframe.contentDocument) ? iframe.contentDocument : iframe.contentWindow.document;
+		var mainBalance = innerDoc.getElementsByTagName('get-customer-balance-response').childNodes[0]; // document.getElementById('balance').contentWindow.document.getElementsByTagName('get-customer-balance-response').childNodes[0];
+		console.log(mainBalance);
+	}
+		
+	function numberEntered( phoneNumber )
+	{
+		var subscriber = document.getElementById( "xml-parameter" );
+		subscriber.value = "<get-customer-balance version='1'><authentication><username>david.sutton@coms.com</username><password>Menorca73#</password></authentication><number>" + phoneNumber.value + "</number></get-customer-balance>";
+		console.log(subscriber.value); 
+
+		$.getJSON("http://phoneafrika.s.im/pip/api/execute.mth?callback=?", function(data) {
+		    console.log(data);
+		});
+
+		var http = new XMLHttpRequest();		
+		var url = "http://phoneafrika.s.im/pip/api/execute.mth";
+		var params = "<get-customer-balance version='1'><authentication><username>david.sutton@coms.com</username><password>Menorca73#</password></authentication><number>447430702004</number></get-customer-balance>";
+		http.open("GET", "http://phoneafrika.s.im/pip/api/execute.mth?callback=?", false);
+		http.send(params);
+
+		//Send the proper header information along with the request
+		http.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+		http.setRequestHeader("Content-length", params.length);
+		http.setRequestHeader("Connection", "close");
+
+		http.onreadystatechange = function() {//Call a function when the state changes.
+		    if(http.readyState == 4 && http.status == 200) {
+		        alert(http.responseText);
+		    }
+				console.log(http.responseText);
+		}
+		http.send(params);
+		console.log(http.responseText);
+		
+	}
+	function voucherEntered( voucherNumber )
+	{
+		var phoneNumber = document.getElementById( "phoneNumber" );
+		console.log(phoneNumber.value);
+		var voucherParameter = document.getElementById( "voucher-parameter" );
+		voucherParameter.value = "<redeem-voucher version='1'><authentication><username>david.sutton@coms.com</username><password>Menorca73#</password></authentication><number>" + phoneNumber.value + "</number><voucher-code>" + voucherNumber.value + "</voucher-code></redeem-voucher>";
+		console.log(voucherParameter.value);
+	}
+	</script>

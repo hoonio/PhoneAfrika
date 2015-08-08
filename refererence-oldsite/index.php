@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<!-- Head -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="title" content=" PhoneAfrika Mobile | International Calls | Pay As You Go SIM | Cheap Calls " /> 
+
+<meta name="keyword" content="international sim, international calls, low cost calls, cheap international calls, low cost international calls, pay as you go, pay as you go sim, prepaid mobile, cheap calls, free sim, mobile calls overseas, mobile calls international, cheap phone calls, cheapest calls, low cost texts, cheap texts, free sim card, low cost texts, low cost sms, cheap sms, no contract, mobile calls, cheap mobile calls uk, uk, phoneafrika, phoneafrika mobile, cheap calls africa, cheap calls ghana, cheap calls nigeria, free on-net, free on net, cheap calls uk" /> 
+
+<meta name="description" content="PhoneAfrika Mobile offers the best UK and International call rates to Africa and around the world." /> 
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href='https://fonts.googleapis.com/css?family=Oswald:700' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700,600' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" media="all" href="css/phone-afrika.css" />
+<script type="text/javascript" src="js/tabs_slides_comp.js"></script>
+<style type="text/css">.jwts_tabber{display:none;}</style>
+<script type="text/javascript" src="js/tabs_slides_def_loader.js"></script>
+<script type="text/javascript" src="js/jquery-1.7.2.min.js"></script> 
+<script type="text/javascript">var jwts_slideSpeed=2.8; var jwts_timer=1;</script>
+<script type="text/javascript" src="js/icx-custom.js"></script>
+<title>PhoneAfrika Mobile | International Calls | Pay As You Go SIM | Cheap Calls</title>
+</head>
+<!-- /Head -->
+
+<body>
+<script type="text/javascript" src="js/jquery.jcarousel.min.js"></script>
+<script type="text/javascript">
+function mycarousel_initCallback(carousel)
+{
+    // Disable autoscrolling if the user clicks the prev or next button.
+    carousel.buttonNext.bind('click', function() {
+        carousel.startAuto(0);
+    });
+
+    carousel.buttonPrev.bind('click', function() {
+        carousel.startAuto(0);
+    });
+
+    // Pause autoscrolling if the user moves with the cursor over the clip.
+   // carousel.clip.hover(function() {
+     //   carousel.stopAuto();
+   ///    carousel.startAuto();
+   // });
+};
+
+jQuery(document).ready(function() {
+    jQuery('#mycarousel').jcarousel({
+        auto: 8,
+        wrap: 'last',
+        initCallback: mycarousel_initCallback
+    });
+});
+</script>
+<!-- Header -->
+<div class="header">
+    <div class="container">
+        <div class="logo-holder"><a class="home" href="index.php" ><img src="images/phone-afrika-logo.png"></a></div>
+        <a href="free.php"><div class="pa-top-message">Get your <span class="red">FREE</span> Pay As You Go <span class="red">SIM card</span></div></a>
+        <div class="pa-phone">Customer services<br /><span class="dark-grey">0208 099 2465</span></div>
+    </div>
+
+    <div class="clear"></div>
+
+    <div class="pa-nav-outer">
+        <div class="container">
+            <div class="nav">
+                <ul>
+                    <li><a class="home" href="index.php" >Home</a></li>
+                    <li><a href="account-overview.php">My Account</a></li>
+                    <li><a href="latest.php">Latest</a></li>
+                    <li><a href="callrates.php">Call Rates</a></li>
+                    <li><a href="topup.php">Top Up</a></li>
+                    <li><a href="faq.php">FAQ</a></li>
+                    <li><a class="contact" href="contact.php">Contact Us</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div><!-- /Header -->
+<div class="home-bck">
+    <div class="bck-container home-bck">
+        <div class="container home-bck">
+        <!-- Full stretch column -->
+         <div class="full-width homepage">
+	    <div class="scroller">
+                <ul id="mycarousel" class="jcarousel-skin-tango">
+
+                    <!-- Carousel item -->
+                    <li>
+                        <div class="scroller-img"><img src="images/homepage-sim.png"></div>
+                        <div class="article">
+                           You Go<br />Talk <span class="orange">aaah!!<span class="small-text"></span></span>
+                           <a href="free.php"><span class="scroller-lower dark-grey">Get your SIM, Top it up, Start saving on your calls</span></a>
+                         </div>
+                    </li>
+
+                    <!-- Carousel item -->
+                    <li>
+                        <div class="scroller-img"><img src="images/homepage-sim.png"></div>
+                        <div class="article">
+                           Call Nigeria<br />from <span class="orange">1p<span class="small-text">/min</span></span>
+                           <span class="scroller-lower dark-grey">No contracts, no hidden charges, no access codes</span>
+                         </div>
+                    </li>
+
+                    <!-- Carousel item -->
+                    <li>
+                        <div class="scroller-img"><img src="images/homepage-sim.png"></div>
+                        <div class="article">
+                           Call Ghana <br />from <span class="orange">10p<span class="small-text">/min</span></span>
+                           <span class="scroller-lower dark-grey">Just great savings, for you, to talk aaah!!</span>
+                         </div>
+                    </li>
+
+
+                  </ul>
+                </div>            <div class="clear"></div>
+	 </div>
+            
+            
+        <!-- right column -->
+            <div class="main-col-left">
+	    <script language="javascript1.2" type="text/javascript">
+<!--
+
+
+
+function toggle(id) {
+	var state = document.getElementById(id).style.display;
+
+	document.getElementById('main').style.display = 'none';
+	document.getElementById('asia').style.display = 'none';
+	document.getElementById('middleeast').style.display = 'none';
+	document.getElementById('africa').style.display = 'none';
+	document.getElementById('world').style.display = 'none';
+		
+        document.getElementById(id).style.display = 'block';
+
+	}
+
+
+//-->
+
+</script>
+
+
+<div class="article">
+                        <div class="pa-box pa-box-yellow">
+                        <span class="title">Best anytime rates</span>
+                            <div class="box-content">
+			     <div id="main" style="display: block;">
+                                <div class="col-1">
+                                    <div class="flag"><img src="images/flags_small/BurkinaFaso.png" alt="" width="21"></div>
+                                    <div class="flag-name">Burkina Faso <strong>22p</strong></div>
+                                    <div class="flag"><img src="images/flags_small/Cameroon.png" alt="" width="21"></div>
+                                    <div class="flag-name">Cameroon <strong>20p</strong></div>
+                                </div>
+                                <div class="col-1">
+                                    <div class="flag"><img src="images/flags_small/Ghana.png" alt="" width="21"></div>
+                                    <div class="flag-name">Ghana <strong>10p</strong></div>
+                                    <div class="flag"><img src="images/flags_small/Congo.png" alt="" width="21"></div>
+                                    <div class="flag-name">Congo <strong>30p</strong></div>
+                                </div>
+                                <div class="col-1">
+                                    <div class="flag"><img src="images/flags_small/CotedIvoire.png" alt="" width="21"></div>
+                                    <div class="flag-name">Ivory Coast <strong>25p</strong></div>
+                                    <div class="flag"><img src="images/flags_small/Nigeria.png" alt="" width="21"></div>
+                                    <div class="flag-name">Nigeria <strong>1p</strong></div>
+                                </div>
+			     </div>
+
+			     <div id="asia" style="display: none;"> 
+                                <div class="col-1">
+                                    <div class="flag"><img src="images/flags_small/Bangladesh.png" alt="" width="21"></div>
+                                    <div class="flag-name">Bangladesh Mob <strong>5p</strong></div>
+                                    <div class="flag"><img src="images/flags_small/China.png" alt="" width="21"></div>
+                                    <div class="flag-name">China <strong>3p</strong></div>
+                                </div>
+                                <div class="col-1">
+                                    <div class="flag"><img src="images/flags_small/Pakistan.png" alt="" width="21"></div>
+                                    <div class="flag-name">Pakistan <strong>10p</strong></div>
+                                    <div class="flag"><img src="images/flags_small/India.png" alt="" width="21"></div>
+                                    <div class="flag-name">India <strong>3p</strong></div>
+                                </div>
+                                <div class="col-1">
+                                    <div class="flag"><img src="images/flags_small/Vietnam.png" alt="" width="21"></div>
+                                    <div class="flag-name">Vietnam <strong>7p</strong></div>
+                                    <div class="flag"><img src="images/flags_small/Philippines.png" alt="" width="21"></div>
+                                    <div class="flag-name">Philippines <strong>13p</strong></div>
+                                </div>
+                             </div>
+			     <div id="middleeast" style="display: none;"> 
+                                <div class="col-1">
+                                    <div class="flag"><img src="images/flags_small/Algeria.png" alt="" width="21"></div>
+                                    <div class="flag-name">Algeria <strong>28p</strong></div>
+                                    <div class="flag"><img src="images/flags_small/Egypt.png" alt="" width="21"></div>
+                                    <div class="flag-name">Egypt <strong>8p</strong></div>
+                                </div>
+                                <div class="col-1">
+                                    <div class="flag"><img src="images/flags_small/Morocco.png" alt="" width="21"></div>
+                                    <div class="flag-name">Morocco <strong>27p</strong></div>
+                                    <div class="flag"><img src="images/flags_small/Tunisia.png" alt="" width="21"></div>
+                                    <div class="flag-name">Tunisia <strong>38p</strong></div>
+                                </div>
+                                <div class="col-1">
+                                    <div class="flag"><img src="images/flags_small/Kenya.png" alt="" width="21"></div>
+                                    <div class="flag-name">Kenya <strong>8p</strong></div>
+                                    <div class="flag"><img src="images/flags_small/Nigeria.png" alt="" width="21"></div>
+                                    <div class="flag-name">Nigeria <strong>7p</strong></div>
+                                </div>
+                             </div>                                                 
+                             
+			     <div id="africa" style="display: none;"> 
+                                <div class="col-1">
+                                    <div class="flag"><img src="images/flags_small/Kenya.png" alt="" width="21"></div>
+                                    <div class="flag-name">Kenya <strong>8p</strong></div>
+                                    <div class="flag"><img src="images/flags_small/SierraLeone.png" alt="" width="21"></div>
+                                    <div class="flag-name">Sierra Leone <strong>38p</strong></div>
+                                </div>
+                                <div class="col-1">
+                                    <div class="flag"><img src="images/flags_small/Ghana.png" alt="" width="21"></div>
+                                    <div class="flag-name">Ghana <strong>15p</strong></div>
+                                    <div class="flag"><img src="images/flags_small/Somalia.png" alt="" width="21"></div>
+                                    <div class="flag-name">Somalia <strong>29p</strong></div>
+                                </div>
+                                <div class="col-1">
+                                    <div class="flag"><img src="images/flags_small/SouthAfrica.png" alt="" width="21"></div>
+                                    <div class="flag-name">South Africa <strong>10p</strong></div>
+                                    <div class="flag"><img src="images/flags_small/Senegal.png" alt="" width="21"></div>
+                                    <div class="flag-name">Senegal <strong>32p</strong></div>
+                                </div>
+                             </div> 
+			     <div id="world" style="display: none;"> 
+                                <div class="col-1">
+                                    <div class="flag"><img src="images/flags_small/Australia.png" alt="" width="21"></div>
+                                    <div class="flag-name">Australia <strong>13p</strong></div>
+                                    <div class="flag"><img src="images/flags_small/Jamaica.png" alt="" width="21"></div>
+                                    <div class="flag-name">Jamaica <strong>19p</strong></div>
+                                </div>
+                                <div class="col-1">
+                                    <div class="flag"><img src="http://www.phoneafrikamobile.com/images/flags_small/USA.png" alt="" width="21"></div>
+                                    <div class="flag-name">USA <strong>4p</strong></div>
+                                    <div class="flag"><img src="images/flags_small/Germany.png" alt="" width="21"></div>
+                                    <div class="flag-name">Germany <strong>16p</strong></div>
+                                </div>
+                                <div class="col-1">
+                                    <div class="flag"><img src="http://www.phoneafrikamobile.com/images/flags_small/UK.png" alt="" width="21"></div>
+                                    <div class="flag-name">UK <strong>6p</strong></div>
+                                    <div class="flag"><img src="images/flags_small/Netherlands.png" alt="" width="21"></div>
+                                    <div class="flag-name">Netherlands <strong>14p</strong></div>
+                                </div>
+                             </div>                                
+ <div class="clear"></div>
+                                <div class="pa-inputbox">
+                                <form method="post" action="callrates.php" name="indexFrm2">
+                                    <div class="searchbox">
+                                        <input name="dest" type="text" class="searchinput" onfocus="this.value=''; this.onfocus=null" value="Search for your country"><input class="button" name="" type="submit" value="Go" onclick="document.forms['indexFrm2'].submit();">
+                                    </div>
+                                </form>
+                                </div>
+                                <div class="country-links">
+                        <a href="index.php#" onclick="toggle('asia');">Asia</a>
+                        <a href="index.php#" onclick="toggle('middleeast');">Middle East</a>
+                        <a href="index.php#" onclick="toggle('africa');">Africa</a>
+                        <a href="index.php#" onclick="toggle('world');">Rest of World</a>
+                                </div>
+                            </div>
+                                        </div>
+                </div>            </div>
+            
+            <div class="right-col">
+	    <div class="aside">
+                        <div class="pa-box pa-box-red">
+                        <span class="title">Store locator</span>
+                        <div class="box-content">
+                            Search for an authorised store near you to purchase a sim or top up your phone credits.
+                            <form method="post" action="topup.php" name="indexFrm">
+                                <div class="searchbox" onclick="submitForm();"><br>
+                                    <input name="postcode" type="text" class="searchinput" onfocus="this.value=''; this.onfocus=null" value="Enter your postcode"><input class="button" name="" type="submit" value="Go">
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+              </div>            </div>
+            <div class="clear"></div>
+        </div>
+    </div>
+</div>
+<!-- Footer  -->
+<div class="footer">
+        <div class="container" id="footer-js">
+        <div class="nav">
+                <ul>
+                <li><a href="terms.php" class="bck-red">T&amp;C'S</a></li>
+                <li><a href="privacy.php" class="bck-orange">Privacy policy</a></li>
+                <li><a href="about.php" class="bck-yellow">About us</a></li>
+            </ul>
+
+        </div>
+        <div class="amba">Site designed by AMBA Design</div>
+    </div>
+</div><!-- /Footer -->
+
+</body>
+</html>

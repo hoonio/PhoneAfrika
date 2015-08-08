@@ -1,0 +1,17 @@
+/*
+Theme Name:     Twish Child
+Theme URI:      http://wpadaptive.com/themes/twish
+Description:    Child theme for the Peach Theme
+Author:         Your name here
+Author URI:     http://example.com/about/
+Template:       twish
+Version:        1.0.0
+*/
+@import url("../twish/style.css");
+
+
+/* Add all your custom CSS styles below. They'll be kept even after you update the parent Adora theme to a new version. */
+
+body {
+	 /*background-color: red;*/
+}
